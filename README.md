@@ -7,6 +7,10 @@ Creates files and folders necessary to work with Odoo in the two fundamental Fra
 > Note: The commands shown must be executed by clicking on the addon that is created.
 
 ## Screenshots
+
+* General View
+![Create Python Module](https://github.com/mjavint/odoo-shortcuts/blob/main/general.png?raw=true)
+
 * Create Python Module
 ![Create Python Module](https://github.com/mjavint/odoo-shortcuts/blob/main/model.png?raw=true)
 * Get the XPath to inherit the structure
@@ -22,15 +26,20 @@ Creates files and folders necessary to work with Odoo in the two fundamental Fra
 5. Create a security access control file which will be automatically loaded into the `___manifest__.py`.
 6. Create an OWL component of type fields, action or common
 7. Create an OWL services
-8. Get Current XPath in views *.xml, selecting the tag inside the quotes or selecting the parent selector of the line
-9.  Create odoo configuration files (*.conf)
+8. Get Current XPath in views `*.xml`, selecting the tag inside the quotes or selecting the parent selector of the line
+9. Create odoo configuration files (`*.conf`)
+10. Create new Report File (`*.xml`)
+11. Create new WIzard File (`*.xml` and `*.py`)
+12. Create new Paper Format
 
 ## How to install
 
 1. Install the extension from the vscode marketplace <https://marketplace.visualstudio.com/items?itemName=mvintg.odoo-file>
 
 ## Configurations
+
 * Configure settings with:
+
    * Mac or Linux
         ```json
         "odooShortcuts.addonsPath": [
