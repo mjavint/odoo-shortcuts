@@ -15,6 +15,8 @@ Creates files and folders necessary to work with Odoo in the two fundamental Fra
 * Get the XPath to inherit the structure
   ![Get XPath 1](https://github.com/mjavint/odoo-shortcuts/blob/main/get-XPath-1.png?raw=true)
   ![Get XPath 2](https://github.com/mjavint/odoo-shortcuts/blob/main/get-XPath-2.png?raw=true)
+* New Controller
+  ![New Controller](https://github.com/mjavint/odoo-shortcuts/blob/main/controllers.png?raw=true)
 
 ## Features
 
