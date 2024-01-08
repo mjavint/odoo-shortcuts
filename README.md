@@ -34,7 +34,8 @@ Creates files and folders necessary to work with Odoo in the two fundamental Fra
 * Get Current XPath in views `*.xml`, selecting the tag inside the quotes or selecting the parent selector of the line
 * Create odoo configuration files (`*.conf`)
 * Create new Report File (`*.xml`)
-* Create new WIzard File (`*.xml` and `*.py`)
+* Create new Wizard File (`*.xml` and `*.py`)
+* Create a new controller including the template
 * Create new Paper Format
 * Create views and reports from the model and inherit model from the editor
 * Import model and inherit model in `__init__.py` from the editor
