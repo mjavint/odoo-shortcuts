@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 0.6.2
+
+- New snippets have been added in OWL such as useState, useRef, useContext, useStore, useDispatch, useAutoFocus, useAssets, useBus
+- The templates have been updated to version 2.2 of OWL
+- New services such as action and company service have been added
+
 ## Version 0.6.1
 
 - We have separated and listed the services in OWL to choose from quickpick updated to odoo 17
