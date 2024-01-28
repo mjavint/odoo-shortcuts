@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 0.6.1
+
+- We have separated and listed the services in OWL to choose from quickpick updated to odoo 17
+  ![service separeted](https://github.com/mjavint/odoo-shortcuts/blob/main/service-separated.png?raw=true)
+- It is now possible from any folder or folder position to generate any
+- Fixed minor issue
+
 ## Version 0.6.0
 
 - Create a new Controller including the template file
