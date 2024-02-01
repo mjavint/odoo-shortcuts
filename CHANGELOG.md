@@ -1,8 +1,12 @@
 # Change Log
 
+## Version 0.7.1
+
+- Fixed the error that was not detected in the javascript file when it was with const
+
 ## Version 0.7.0
 
-![demo open file](https://youtu.be/leyVXKjNQlY)
+demo: https://youtu.be/leyVXKjNQlY?si=Y6_iritz4kTZMQxo
 
 - Get the import path of a javascript file.
 - Open a file from its import and navigate to the definition of the chosen class or function
