@@ -36,6 +36,8 @@ Creates files and folders necessary to work with Odoo in the two fundamental Fra
 * Create views and reports from the model and inherit model from the editor
 * Import model and inherit model in `__init__.py` from the editor
 * Import model in security model access file (`ir.model.access.csv`)
+* Get the import path of a javascript file.
+* Open a file from its import and navigate to the definition of the chosen class or function
 
 ## How to install
 

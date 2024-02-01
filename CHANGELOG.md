@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 0.7.0
+
+![demo](https://youtu.be/leyVXKjNQlY)
+
+- Get the import path of a javascript file.
+- Open a file from its import and navigate to the definition of the chosen class or function
+
 ## Version 0.6.2
 
 - New snippets have been added in OWL such as useState, useRef, useContext, useStore, useDispatch, useAutoFocus, useAssets, useBus
