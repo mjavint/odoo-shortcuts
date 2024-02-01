@@ -2,7 +2,7 @@
 
 ## Version 0.7.0
 
-![demo](https://youtu.be/leyVXKjNQlY)
+![demo open file](https://youtu.be/leyVXKjNQlY)
 
 - Get the import path of a javascript file.
 - Open a file from its import and navigate to the definition of the chosen class or function
