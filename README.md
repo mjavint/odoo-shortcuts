@@ -8,6 +8,8 @@ Creates files and folders necessary to work with Odoo in the two fundamental Fra
 
 * General View
   ![General View](https://github.com/mjavint/odoo-shortcuts/blob/main/general.png?raw=true)
+  ![new-treeview-addon-1](https://github.com/mjavint/odoo-shortcuts/blob/main/new-treeview-addon-1.png?raw=true)
+  ![new-treeview-addon-2](https://github.com/mjavint/odoo-shortcuts/blob/main/new-treeview-addon-2.png?raw=true)
 * Create views and reports, import model in `__init__.py`, import model in security model access (`ir.model.access.csv`)
   ![General View](https://github.com/mjavint/odoo-shortcuts/blob/main/code-lens.png?raw=true)
 * Create Python Module
