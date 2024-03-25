@@ -71,3 +71,8 @@ Creates files and folders necessary to work with Odoo in the two fundamental Fra
 ## Known Issues
 
 You can report an issue through <https://github.com/mjavint/odoo-shortcuts/issues>
+
+## Mantainers
+
+- Ing. Manuel Vinent Guilarte - mjavint@gmail.com
+- Ing. Antonio David Ruban Espinal - antoniodavid8@gmail.com
