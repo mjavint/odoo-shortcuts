@@ -1,5 +1,38 @@
 # Change Log
 
+## Version 0.8.1
+
+- In the Tree View of the Addons they are now grouped by repositories or folders containing addons
+  ![treeview-addon-group](https://github.com/mjavint/odoo-shortcuts/blob/main/treeview-addon-group.png?raw=true)
+- Added odoo signature colors violet and green to icons
+
+## Version 0.8.0
+
+- Added a new Tree View in Explorer for the Explorer Addon
+  ![new-treeview-addon-1](https://github.com/mjavint/odoo-shortcuts/blob/main/new-treeview-addon-1.png?raw=true)
+  ![new-treeview-addon-2](https://github.com/mjavint/odoo-shortcuts/blob/main/new-treeview-addon-2.png?raw=true)
+- Added a new Tree View in Explorer for the Explorer Odoo Configurations
+  ![new-treeview-config](https://github.com/mjavint/odoo-shortcuts/blob/main/new-treeview-config.png?raw=true)
+- Added contacts mantainers in README file
+
+## Version 0.7.3
+
+- Create new snippets in Odoo Web Library (OWL)
+  - Import Hook Service - (ooimservice)
+  - Use Hook Service - (oohservice)
+
+    ![demo-new-snippets-owl](https://github.com/mjavint/odoo-shortcuts/blob/main/demo-new-snnipets-owl.gif?raw=true)
+- Create new snippets in Python File
+  - Inherit Default Get Method - (oodefault)
+
+    ![demo-new-snippets-py](https://github.com/mjavint/odoo-shortcuts/blob/main/demo-new-snnipets-py.gif?raw=true)
+
+- Fixed minor error in __manifest__.py version 17
+
+## Version 0.7.2
+
+- Fixed minor error in Get Path Import
+
 ## Version 0.7.1
 
 - Fixed the error that was not detected in the javascript file when it was with const
