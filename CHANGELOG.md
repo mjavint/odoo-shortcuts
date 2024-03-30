@@ -1,5 +1,16 @@
 # Change Log
 
+## Version 0.9.0
+
+- A new view containers has been created for Odoo.
+  ![General View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/general-view.png?raw=true)
+
+- Added two tree data provider addons explorer and explorer configurations
+  ![Addon Tree View](https://github.com/mjavint/odoo-shortcuts/blob/main/treeview-addon-group.png?raw=true)
+
+- The option has been added to start the odoo server, debug python and javascript files for each of the configurations found in the environment.
+  ![Config Tree View](https://github.com/mjavint/odoo-shortcuts/blob/main/config-treedata.png?raw=true)
+
 ## Version 0.8.1
 
 - In the Tree View of the Addons they are now grouped by repositories or folders containing addons
@@ -9,10 +20,7 @@
 ## Version 0.8.0
 
 - Added a new Tree View in Explorer for the Explorer Addon
-  ![new-treeview-addon-1](https://github.com/mjavint/odoo-shortcuts/blob/main/new-treeview-addon-1.png?raw=true)
-  ![new-treeview-addon-2](https://github.com/mjavint/odoo-shortcuts/blob/main/new-treeview-addon-2.png?raw=true)
-- Added a new Tree View in Explorer for the Explorer Odoo Configurations
-  ![new-treeview-config](https://github.com/mjavint/odoo-shortcuts/blob/main/new-treeview-config.png?raw=true)
+- Added a new Tree View in Explorer for the Explorer Odoo
 - Added contacts mantainers in README file
 
 ## Version 0.7.3
@@ -53,14 +61,12 @@ demo: https://youtu.be/leyVXKjNQlY?si=Y6_iritz4kTZMQxo
 ## Version 0.6.1
 
 - We have separated and listed the services in OWL to choose from quickpick updated to odoo 17
-  ![service separeted](https://github.com/mjavint/odoo-shortcuts/blob/main/service-separated.png?raw=true)
 - It is now possible from any folder or folder position to generate any
 - Fixed minor issue
 
 ## Version 0.6.0
 
 - Create a new Controller including the template file
-  ![New Controller](https://github.com/mjavint/odoo-shortcuts/blob/main/controllers.png?raw=true)
 
 ## Version 0.5.3
 
