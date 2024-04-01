@@ -1,5 +1,14 @@
 # Change Log
 
+## Version 0.10.0
+
+- Translate .po files.
+  ![Lang View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/lang-view.png?raw=true)
+
+  ![Lang View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/lang-explorer.png?raw=true)
+
+  ![Lang View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/lang-select.png?raw=true)
+
 ## Version 0.9.0
 
 - A new view containers has been created for Odoo.

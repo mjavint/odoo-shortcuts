@@ -48,6 +48,7 @@ Creates files and folders necessary to work with Odoo in the two fundamental Fra
 * Open a file from its import and navigate to the definition of the chosen class or function
 * A new view containers has been created for Odoo.
 * Added to start the odoo server, debug python and javascript files for each of the configurations found in the environment
+* Translate .po files
 
 ## How to install
 
