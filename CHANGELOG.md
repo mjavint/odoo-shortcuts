@@ -1,5 +1,14 @@
 # Change Log
 
+## Version 0.11.0
+
+- Added a new menu in addon elements to create views and actions.
+  ![Add Odoo XML](https://github.com/mjavint/odoo-shortcuts/blob/main/add-odoo-xml.png?raw=true)
+
+- The possibility of creating reports was added to the Odoo python files menu.
+
+  ![Add Reports](https://github.com/mjavint/odoo-shortcuts/blob/main/add-report.png?raw=true)
+
 ## Version 0.10.0
 
 - Translate .po files.
