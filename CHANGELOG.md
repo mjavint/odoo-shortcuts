@@ -2,7 +2,7 @@
 
 ## Version 0.11.1
 
-- Fixed error in the node tree and search that did not allow an OCA pre-commit when it has string. Thanks to *Carlos López* for detecting and reporting it. Issue Details [string attribute in \<tree\> #1](https://github.com/mjavint/odoo-shortcuts/issues/1)
+- Fixed error in the node tree and search that did not allow an OCA pre-commit when it has string. Thanks to *Carlos López* for detecting and reporting it. The `oovtree`, `oovfull`, `ootedit` snippets and the respective `Create Model` and `Create View` file creation shortcuts were updated. Issue Details [string attribute in \<tree\> #1](https://github.com/mjavint/odoo-shortcuts/issues/1)
 
 ## Version 0.11.0
 
