@@ -1,6 +1,6 @@
 # Odoo Shortcuts
 
-Creates files and folders necessary to work with Odoo in the two fundamental Frameworks Python and Javascript. When creating the files, they will be automatically generated in the general and local `__init__.py` files of each module as well as in the `__manifest__.py`.
+Generates addon, modules, models, views, reports, wizard, components, widget, actions, services in OWL and other necessary files referring to the two main frameworks (Python, Javascript). It has integrated server startup, debugging in Python and Javascript. Features powerful snippets for all file types including Python, Javascript, CSV and XML
 
 > Note: The commands shown must be executed by clicking on the addon that is created.
 
