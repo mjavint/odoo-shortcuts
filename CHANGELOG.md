@@ -5,7 +5,7 @@
 - Added the functionality to create inherited views, responding to the issue [[ FEAT ] Creates inherit views. #2](https://github.com/mjavint/odoo-shortcuts/issues/2), proposed by **Rafael Angel Ramirez**.
   ![Add View Inherit](https://github.com/mjavint/odoo-shortcuts/blob/main/add-view-inherit.png?raw=true)
 - Added the functionality to create paper format to the reports.
-- The folder and directory structure was aligned to the development guide proposed by Odoo. Thanks to **@rolypr (telegram)** for suggesting we add this guide [Odoo Coding Guidelines](https://www.odoo.com/documentation/17.0/contributing/development/coding_guidelines.html).
+- The folder and directory structure was aligned to the development guide proposed by Odoo. Thanks to **Rolando Perez Rebollo** for suggesting we add this guide [Odoo Coding Guidelines](https://www.odoo.com/documentation/17.0/contributing/development/coding_guidelines.html).
 
 ## Version 0.11.1
 
