@@ -1,5 +1,13 @@
 # Change Log
 
+## Version 0.12.1
+
+- The errors described in the issue have been fixed [Issue #3](https://github.com/mjavint/odoo-shortcuts/issues/3). A new step has been created to manage server actions.
+  ![Server Action - new step](https://github.com/mjavint/odoo-shortcuts/blob/main/img/new-step.png?raw=true)
+  ![Server Action - new step2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/new-step2.png?raw=true)
+- The errors described in the issue have been fixed [Issue #3](https://github.com/mjavint/odoo-shortcuts/issues/4)
+- The performance of the extension has been improved for greater performance
+
 ## Version 0.12.0
 
 - Added the functionality to create inherited views, responding to the issue [[ FEAT ] Creates inherit views. #2](https://github.com/mjavint/odoo-shortcuts/issues/2), proposed by **Rafael Angel Ramirez**.

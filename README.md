@@ -7,24 +7,24 @@ Generates addon, modules, models, views, reports, wizard, components, widget, ac
 ## Screenshots
 
 * General View
-  ![General View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/general-view.png?raw=true)
-  ![General View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/general.png?raw=true)
+  ![General View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general-view.png?raw=true)
+  ![General View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general.png?raw=true)
 
 * Create views and reports, import model in `__init__.py`, import model in security model access (`ir.model.access.csv`)
-  ![General View](https://github.com/mjavint/odoo-shortcuts/blob/main/code-lens.png?raw=true)
+  ![General View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/code-lens.png?raw=true)
 
 * Create Python Files
-  ![Create Python Files](https://github.com/mjavint/odoo-shortcuts/blob/main/model-files.png?raw=true)
+  ![Create Python Files](https://github.com/mjavint/odoo-shortcuts/blob/main/img/model-files.png?raw=true)
 
 * Debug Odoo Python and Javascript for Configurations Files
-  ![Debug](https://github.com/mjavint/odoo-shortcuts/blob/main/config-treedata.png?raw=true)
+  ![Debug](https://github.com/mjavint/odoo-shortcuts/blob/main/img/config-treedata.png?raw=true)
 
 * Create Javascript Files
-  ![Create Javascript Files](https://github.com/mjavint/odoo-shortcuts/blob/main/owl-files.png?raw=true)
+  ![Create Javascript Files](https://github.com/mjavint/odoo-shortcuts/blob/main/img/owl-files.png?raw=true)
 
 * Get the XPath to inherit the structure
-  ![Get XPath 1](https://github.com/mjavint/odoo-shortcuts/blob/main/get-XPath-1.png?raw=true)
-  ![Get XPath 2](https://github.com/mjavint/odoo-shortcuts/blob/main/get-XPath-2.png?raw=true)
+  ![Get XPath 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/get-XPath-1.png?raw=true)
+  ![Get XPath 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/get-XPath-2.png?raw=true)
 
 ## Features
 
