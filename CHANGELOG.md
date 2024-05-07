@@ -3,7 +3,7 @@
 ## Version 0.12.0
 
 - Added the functionality to create inherited views, responding to the issue [[ FEAT ] Creates inherit views. #2](https://github.com/mjavint/odoo-shortcuts/issues/2), proposed by **Rafael Angel Ramirez**.
-  ![Add View Inherit](https://github.com/mjavint/odoo-shortcuts/blob/main/add-view-inherit.png?raw=true)
+  ![Add View Inherit](https://github.com/mjavint/odoo-shortcuts/blob/main/img/add-view-inherit.png?raw=true)
 - Added the functionality to create paper format to the reports.
 - The folder and directory structure was aligned to the development guide proposed by Odoo. Thanks to **Rolando Perez Rebollo** for suggesting we add this guide [Odoo Coding Guidelines](https://www.odoo.com/documentation/17.0/contributing/development/coding_guidelines.html).
 
@@ -14,36 +14,36 @@
 ## Version 0.11.0
 
 - Added a new menu in addon elements to create views and actions.
-  ![Add Odoo XML](https://github.com/mjavint/odoo-shortcuts/blob/main/add-odoo-xml.png?raw=true)
+  ![Add Odoo XML](https://github.com/mjavint/odoo-shortcuts/blob/main/img/add-odoo-xml.png?raw=true)
 
 - The possibility of creating reports was added to the Odoo python files menu.
 
-  ![Add Reports](https://github.com/mjavint/odoo-shortcuts/blob/main/add-report.png?raw=true)
+  ![Add Reports](https://github.com/mjavint/odoo-shortcuts/blob/main/img/add-report.png?raw=true)
 
 ## Version 0.10.0
 
 - Translate .po files.
-  ![Lang View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/lang-view.png?raw=true)
+  ![Lang View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/lang-view.png?raw=true)
 
-  ![Lang View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/lang-explorer.png?raw=true)
+  ![Lang View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/lang-explorer.png?raw=true)
 
-  ![Lang View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/lang-select.png?raw=true)
+  ![Lang View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/lang-select.png?raw=true)
 
 ## Version 0.9.0
 
 - A new view containers has been created for Odoo.
-  ![General View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/general-view.png?raw=true)
+  ![General View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general-view.png?raw=true)
 
 - Added two tree data provider addons explorer and explorer configurations
-  ![Addon Tree View](https://github.com/mjavint/odoo-shortcuts/blob/main/treeview-addon-group.png?raw=true)
+  ![Addon Tree View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/treeview-addon-group.png?raw=true)
 
 - The option has been added to start the odoo server, debug python and javascript files for each of the configurations found in the environment.
-  ![Config Tree View](https://github.com/mjavint/odoo-shortcuts/blob/main/config-treedata.png?raw=true)
+  ![Config Tree View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/config-treedata.png?raw=true)
 
 ## Version 0.8.1
 
 - In the Tree View of the Addons they are now grouped by repositories or folders containing addons
-  ![treeview-addon-group](https://github.com/mjavint/odoo-shortcuts/blob/main/treeview-addon-group.png?raw=true)
+  ![treeview-addon-group](https://github.com/mjavint/odoo-shortcuts/blob/main/img/treeview-addon-group.png?raw=true)
 - Added odoo signature colors violet and green to icons
 
 ## Version 0.8.0
@@ -58,13 +58,13 @@
   - Import Hook Service - (ooimservice)
   - Use Hook Service - (oohservice)
 
-    ![demo-new-snippets-owl](https://github.com/mjavint/odoo-shortcuts/blob/main/demo-new-snnipets-owl.gif?raw=true)
+    ![demo-new-snippets-owl](https://github.com/mjavint/odoo-shortcuts/blob/main/img/demo-new-snnipets-owl.gif?raw=true)
 - Create new snippets in Python File
   - Inherit Default Get Method - (oodefault)
 
-    ![demo-new-snippets-py](https://github.com/mjavint/odoo-shortcuts/blob/main/demo-new-snnipets-py.gif?raw=true)
+    ![demo-new-snippets-py](https://github.com/mjavint/odoo-shortcuts/blob/main/img/demo-new-snnipets-py.gif?raw=true)
 
-- Fixed minor error in __manifest__.py version 17
+- Fixed minor error in `__manifest__.py` version 17
 
 ## Version 0.7.2
 
@@ -76,7 +76,7 @@
 
 ## Version 0.7.0
 
-demo: https://youtu.be/leyVXKjNQlY?si=Y6_iritz4kTZMQxo
+demo: ![demo](https://youtu.be/leyVXKjNQlY?si=Y6_iritz4kTZMQxo)
 
 - Get the import path of a javascript file.
 - Open a file from its import and navigate to the definition of the chosen class or function
@@ -111,7 +111,7 @@ demo: https://youtu.be/leyVXKjNQlY?si=Y6_iritz4kTZMQxo
 - Create views and reports from the model and inherit model from the editor
 - Import model and inherit model in `__init__.py` from the editor
 - Import model in security model access file (`ir.model.access.csv`)
-  ![General View](https://github.com/mjavint/odoo-shortcuts/blob/main/code-lens.png?raw=true)
+  ![General View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/code-lens.png?raw=true)
 
 ## Version 0.4.0
 
