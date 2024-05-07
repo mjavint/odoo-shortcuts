@@ -2,10 +2,11 @@
 
 ## Version 0.12.1
 
-- The errors described in the issue have been fixed [Issue #3](https://github.com/mjavint/odoo-shortcuts/issues/3). A new step has been created to manage server actions.
+- The errors described in the issue have been fixed [Issue #3](https://github.com/mjavint/odoo-shortcuts/issues/3). A new step has been created to manage server actions. Thanks to **Rafael Angel Ramirez**
   ![Server Action - new step](https://github.com/mjavint/odoo-shortcuts/blob/main/img/new-step.png?raw=true)
+- The errors described in the issue have been fixed [Issue #3](https://github.com/mjavint/odoo-shortcuts/issues/4). Thanks to **Rafael Angel Ramirez**
   ![Server Action - new step2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/new-step2.png?raw=true)
-- The errors described in the issue have been fixed [Issue #3](https://github.com/mjavint/odoo-shortcuts/issues/4)
+- The error that duplicated the xml in the `__manifest__.py` file has been fixed
 - The performance of the extension has been improved for greater performance
 
 ## Version 0.12.0
