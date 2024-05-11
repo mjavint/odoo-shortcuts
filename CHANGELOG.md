@@ -1,5 +1,10 @@
 # Change Log
 
+## Version 0.13.0
+
+- A selection of arguments for launching the startup or debug of the Odoo Server has been added to the status bar, in addition to its creation.
+  ![Status Bar](https://github.com/mjavint/odoo-shortcuts/blob/main/img/status-bar.png?raw=true)
+
 ## Version 0.12.1
 
 - The errors described in the issue have been fixed [Issue #3](https://github.com/mjavint/odoo-shortcuts/issues/3). A new step has been created to manage server actions. Thanks to **Rafael Angel Ramirez**
