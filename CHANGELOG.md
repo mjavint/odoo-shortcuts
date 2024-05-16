@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 0.13.1
+
+- Fixed error in the name of views and inherited views. [Issue #7](https://github.com/mjavint/odoo-shortcuts/issues/7). Thank you **Rafael Angel Ramirez**
+
 ## Version 0.13.0
 
 - A selection of arguments for launching the startup or debug of the Odoo Server has been added to the status bar, in addition to its creation.
