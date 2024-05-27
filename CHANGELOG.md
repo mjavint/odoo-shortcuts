@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 0.14.0
+
+- New snippets have been added in the OWL component template.
+- All tags have been added by snippets according to the owl documentation [OWL](https://github.com/odoo/owl/blob/master/doc/reference/templates.md).
+- Fixed minor bugs in the extension
+
 ## Version 0.13.1
 
 - Fixed error in the name of views and inherited views. [Issue #7](https://github.com/mjavint/odoo-shortcuts/issues/7). Thank you **Rafael Angel Ramirez**
