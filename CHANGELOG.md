@@ -1,5 +1,13 @@
 # Change Log
 
+## Version 0.15.0
+
+- New feature: The possibility has been added to transform the data file (example: account.move.csv) to its corresponding xml file (account_move_data.xml) with noupdate set to True activated by default so that it is only loaded once.
+  ![Transform CSV to XML data](https://github.com/mjavint/odoo-shortcuts/blob/main/img/transform-csv-xml-data.gif?raw=true)
+- The bug described in [#6](https://github.com/mjavint/odoo-shortcuts/issues/6) has been fixed
+- The bug described in [#8](https://github.com/mjavint/odoo-shortcuts/issues/8) has been fixed
+- The bug described in [#9](https://github.com/mjavint/odoo-shortcuts/issues/9) has been fixed
+
 ## Version 0.14.0
 
 - New snippets have been added in the OWL component template.
