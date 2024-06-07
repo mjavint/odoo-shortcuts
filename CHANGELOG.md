@@ -1,6 +1,6 @@
 # Change Log
 
-## Version 0.15.0
+## Version 0.15.5
 
 - New feature: The possibility has been added to transform the data file (example: account.move.csv) to its corresponding xml file (account_move_data.xml) with noupdate set to True activated by default so that it is only loaded once.
   ![Transform CSV to XML data](https://github.com/mjavint/odoo-shortcuts/blob/main/img/transform-csv-xml-data.gif?raw=true)
