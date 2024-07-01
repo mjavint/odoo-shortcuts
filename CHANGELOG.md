@@ -1,5 +1,17 @@
 # Change Log
 
+## Version 0.16.3
+
+- The error that did not allow the webview to be seen in Windows has been corrected
+
+## Version 0.16.2
+
+- Fixed minor error in performance
+
+## Version 0.16.1
+
+- The error that did not allow the shortcuts.json file to be created correctly has been fixed
+
 ## Version 0.16.0
 
 - A webview has been added to manage the configurations for starting and debugging the server
