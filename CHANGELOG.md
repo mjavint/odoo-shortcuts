@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 0.16.0
+
+- A webview has been added to manage the configurations for starting and debugging the server
+  ![Status Bar](https://github.com/mjavint/odoo-shortcuts/blob/main/img/webview1.png?raw=true)
+  ![Status Bar](https://github.com/mjavint/odoo-shortcuts/blob/main/img/webview2.png?raw=true)
+- Added a snippets to create t-call tags to call other templates, its trigger is **otc**
+
 ## Version 0.15.5
 
 - New feature: The possibility has been added to transform the data file (example: account.move.csv) to its corresponding xml file (account_move_data.xml) with noupdate set to True activated by default so that it is only loaded once.

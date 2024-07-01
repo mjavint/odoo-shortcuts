@@ -9,6 +9,7 @@ Generates addon, models, views, reports, wizard, components, widget, actions, se
 * General View
   ![General View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general-view.png?raw=true)
   ![General View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general.png?raw=true)
+  ![General View 3](https://github.com/mjavint/odoo-shortcuts/blob/main/img/webview2.png?raw=true)
 
 * Create views and reports, import model in `__init__.py`, import model in security model access (`ir.model.access.csv`)
   ![General View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/code-lens.png?raw=true)
