@@ -1,5 +1,13 @@
 # Change Log
 
+## Version 0.17.1
+
+- Fixed run configurations
+
+## Version 0.17.0
+
+- The design of the webview in the form was corrected, in addition to making it much more flexible, giving the possibility of searching the directory tree for the odoo-bin and odoo.conf files and also being able to copy the path in the corresponding field
+
 ## Version 0.16.3
 
 - The error that did not allow the webview to be seen in Windows has been corrected
@@ -50,11 +58,9 @@
 - The errors described in the issue have been fixed [Issue #3](https://github.com/mjavint/odoo-shortcuts/issues/4). Thanks to **Rafael Angel Ramirez**
   ![Server Action - new step2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/new-step2.png?raw=true)
 - The error that duplicated the xml in the `__manifest__.py` file has been fixed
-- The performance of the extension has been improved for greater performance
-
-## Version 0.12.0
-
-- Added the functionality to create inherited views, responding to the issue [[ FEAT ] Creates inherit views. #2](https://github.com/mjavint/odoo-shortcuts/issues/2), proposed by **Rafael Angel Ramirez**.
+- The performance of the extension has been improved for gre<<<<<<< HEAD
+  "version": "0.15.4",
+=======ing to the issue [[ FEAT ] Creates inherit views. #2](https://github.com/mjavint/odoo-shortcuts/issues/2), proposed by **Rafael Angel Ramirez**.
   ![Add View Inherit](https://github.com/mjavint/odoo-shortcuts/blob/main/img/add-view-inherit.png?raw=true)
 - Added the functionality to create paper format to the reports.
 - The folder and directory structure was aligned to the development guide proposed by Odoo. Thanks to **Rolando Perez Rebollo** for suggesting we add this guide [Odoo Coding Guidelines](https://www.odoo.com/documentation/17.0/contributing/development/coding_guidelines.html).
