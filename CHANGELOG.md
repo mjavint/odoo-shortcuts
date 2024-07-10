@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 0.18.1
+
+- Shortcuts have been added for the commands: Open the configuration webview (Win&Linux: ctrl+k ctrl+a, Mac: cmd+k cmd+a), Start Odoo Server (Win&Linux: ctrl+k n, Mac: cmd+k n) , Debug Odoo Server (Win&Linux: ctrl+k ctrl+n, Mac: cmd+k cmd+n), Debug Odoo Javascript (Win&Linux: ctrl+k j, Mac: cmd+k j)
+
 ## Version 0.18.0
 
 - Buttons have been added to start and debug the Odoo server, in addition to the button to debug javascript and the button to add configurations for the launch
