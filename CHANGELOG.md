@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 0.18.0
+
+- Buttons have been added to start and debug the Odoo server, in addition to the button to debug javascript and the button to add configurations for the launch
+  ![Status Bar Buttons](https://github.com/mjavint/odoo-shortcuts/blob/main/img/statusbar-btns.png?raw=true)
+- Performance has been improved
+
 ## Version 0.17.1
 
 - Fixed run configurations
