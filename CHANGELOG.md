@@ -1,13 +1,20 @@
 # Change Log
 
+<<<<<<< HEAD
+## Version 0.19.0
+
+- The context menu in File Explorer has been simplified
+- Several menus have been added in the context of the Odoons Explorer
+
 ## Version 0.18.1
 
 - Shortcuts have been added for the commands: Open the configuration webview (Win&Linux: ctrl+k ctrl+a, Mac: cmd+k cmd+a), Start Odoo Server (Win&Linux: ctrl+k n, Mac: cmd+k n) , Debug Odoo Server (Win&Linux: ctrl+k ctrl+n, Mac: cmd+k cmd+n), Debug Odoo Javascript (Win&Linux: ctrl+k j, Mac: cmd+k j)
 
+=======
+>>>>>>> parent of 8704eb8 ([ADD] Add Shortcuts for new commands)
 ## Version 0.18.0
 
 - Buttons have been added to start and debug the Odoo server, in addition to the button to debug javascript and the button to add configurations for the launch
-  ![Status Bar Buttons](https://github.com/mjavint/odoo-shortcuts/blob/main/img/statusbar-btns.png?raw=true)
 - Performance has been improved
 
 ## Version 0.17.1
@@ -33,14 +40,11 @@
 ## Version 0.16.0
 
 - A webview has been added to manage the configurations for starting and debugging the server
-  ![Status Bar](https://github.com/mjavint/odoo-shortcuts/blob/main/img/webview1.png?raw=true)
-  ![Status Bar](https://github.com/mjavint/odoo-shortcuts/blob/main/img/webview2.png?raw=true)
 - Added a snippets to create t-call tags to call other templates, its trigger is **otc**
 
 ## Version 0.15.5
 
 - New feature: The possibility has been added to transform the data file (example: account.move.csv) to its corresponding xml file (account_move_data.xml) with noupdate set to True activated by default so that it is only loaded once.
-  ![Transform CSV to XML data](https://github.com/mjavint/odoo-shortcuts/blob/main/img/transform-csv-xml-data.gif?raw=true)
 - The description key has been removed from the Manifest as it is deprecated
 - The bug described in [#6](https://github.com/mjavint/odoo-shortcuts/issues/6) has been fixed
 - The bug described in [#8](https://github.com/mjavint/odoo-shortcuts/issues/8) has been fixed
@@ -59,19 +63,15 @@
 ## Version 0.13.0
 
 - A selection of arguments for launching the startup or debug of the Odoo Server has been added to the status bar, in addition to its creation.
-  ![Status Bar](https://github.com/mjavint/odoo-shortcuts/blob/main/img/status-bar.png?raw=true)
 
 ## Version 0.12.1
 
 - The errors described in the issue have been fixed [Issue #3](https://github.com/mjavint/odoo-shortcuts/issues/3). A new step has been created to manage server actions. Thanks to **Rafael Angel Ramirez**
-  ![Server Action - new step](https://github.com/mjavint/odoo-shortcuts/blob/main/img/new-step.png?raw=true)
 - The errors described in the issue have been fixed [Issue #3](https://github.com/mjavint/odoo-shortcuts/issues/4). Thanks to **Rafael Angel Ramirez**
-  ![Server Action - new step2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/new-step2.png?raw=true)
 - The error that duplicated the xml in the `__manifest__.py` file has been fixed
 - The performance of the extension has been improved for gre<<<<<<< HEAD
   "version": "0.15.4",
 =======ing to the issue [[ FEAT ] Creates inherit views. #2](https://github.com/mjavint/odoo-shortcuts/issues/2), proposed by **Rafael Angel Ramirez**.
-  ![Add View Inherit](https://github.com/mjavint/odoo-shortcuts/blob/main/img/add-view-inherit.png?raw=true)
 - Added the functionality to create paper format to the reports.
 - The folder and directory structure was aligned to the development guide proposed by Odoo. Thanks to **Rolando Perez Rebollo** for suggesting we add this guide [Odoo Coding Guidelines](https://www.odoo.com/documentation/17.0/contributing/development/coding_guidelines.html).
 
@@ -82,36 +82,21 @@
 ## Version 0.11.0
 
 - Added a new menu in addon elements to create views and actions.
-  ![Add Odoo XML](https://github.com/mjavint/odoo-shortcuts/blob/main/img/add-odoo-xml.png?raw=true)
-
 - The possibility of creating reports was added to the Odoo python files menu.
-
-  ![Add Reports](https://github.com/mjavint/odoo-shortcuts/blob/main/img/add-report.png?raw=true)
 
 ## Version 0.10.0
 
 - Translate .po files.
-  ![Lang View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/lang-view.png?raw=true)
-
-  ![Lang View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/lang-explorer.png?raw=true)
-
-  ![Lang View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/lang-select.png?raw=true)
 
 ## Version 0.9.0
 
 - A new view containers has been created for Odoo.
-  ![General View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general-view.png?raw=true)
-
 - Added two tree data provider addons explorer and explorer configurations
-  ![Addon Tree View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/treeview-addon-group.png?raw=true)
-
 - The option has been added to start the odoo server, debug python and javascript files for each of the configurations found in the environment.
-  ![Config Tree View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/config-treedata.png?raw=true)
 
 ## Version 0.8.1
 
 - In the Tree View of the Addons they are now grouped by repositories or folders containing addons
-  ![treeview-addon-group](https://github.com/mjavint/odoo-shortcuts/blob/main/img/treeview-addon-group.png?raw=true)
 - Added odoo signature colors violet and green to icons
 
 ## Version 0.8.0
@@ -125,13 +110,8 @@
 - Create new snippets in Odoo Web Library (OWL)
   - Import Hook Service - (ooimservice)
   - Use Hook Service - (oohservice)
-
-    ![demo-new-snippets-owl](https://github.com/mjavint/odoo-shortcuts/blob/main/img/demo-new-snnipets-owl.gif?raw=true)
 - Create new snippets in Python File
   - Inherit Default Get Method - (oodefault)
-
-    ![demo-new-snippets-py](https://github.com/mjavint/odoo-shortcuts/blob/main/img/demo-new-snnipets-py.gif?raw=true)
-
 - Fixed minor error in `__manifest__.py` version 17
 
 ## Version 0.7.2
@@ -179,7 +159,6 @@ demo: ![demo](https://youtu.be/leyVXKjNQlY?si=Y6_iritz4kTZMQxo)
 - Create views and reports from the model and inherit model from the editor
 - Import model and inherit model in `__init__.py` from the editor
 - Import model in security model access file (`ir.model.access.csv`)
-  ![General View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/code-lens.png?raw=true)
 
 ## Version 0.4.0
 
