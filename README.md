@@ -7,25 +7,20 @@ Generates addon, models, views, reports, wizard, components, widget, actions, se
 ## Screenshots
 
 * General View
-  ![General View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general-view.png?raw=true)
-  ![General View 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general.png?raw=true)
-  ![General View 3](https://github.com/mjavint/odoo-shortcuts/blob/main/img/webview2.png?raw=true)
+  ![General View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general.gif?raw=true)
 
-* Create views and reports, import model in `__init__.py`, import model in security model access (`ir.model.access.csv`)
-  ![General View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/code-lens.png?raw=true)
+* Odoo Start Server, Debug Python and Javascript
+  ![Debug](https://github.com/mjavint/odoo-shortcuts/blob/main/img/debug.gif?raw=true)
 
-* Create Python Files
-  ![Create Python Files](https://github.com/mjavint/odoo-shortcuts/blob/main/img/model-files.png?raw=true)
-
-* Debug Odoo Python and Javascript for Configurations Files
-  ![Debug](https://github.com/mjavint/odoo-shortcuts/blob/main/img/config-treedata.png?raw=true)
-
-* Create Javascript Files
-  ![Create Javascript Files](https://github.com/mjavint/odoo-shortcuts/blob/main/img/owl-files.png?raw=true)
+* Code Lens in Odoo Python Files
+  ![General View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/codelens.gif?raw=true)
 
 * Get the XPath to inherit the structure
   ![Get XPath 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/get-XPath-1.png?raw=true)
   ![Get XPath 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/get-XPath-2.png?raw=true)
+
+* Easy convert CSV data in XML
+  ![csv2xml](https://github.com/mjavint/odoo-shortcuts/blob/main/img/transform-csv-xml-data.gif?raw=true)
 
 ## Features
 

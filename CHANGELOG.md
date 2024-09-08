@@ -1,17 +1,17 @@
 # Change Log
 
-<<<<<<< HEAD
 ## Version 0.19.0
 
 - The context menu in File Explorer has been simplified
+  ![General View 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general.gif?raw=true)
 - Several menus have been added in the context of the Odoons Explorer
+  ![Context](https://github.com/mjavint/odoo-shortcuts/blob/main/img/new-context.gif?raw=true)
+- Fixed minor bugs in the extension
 
 ## Version 0.18.1
 
 - Shortcuts have been added for the commands: Open the configuration webview (Win&Linux: ctrl+k ctrl+a, Mac: cmd+k cmd+a), Start Odoo Server (Win&Linux: ctrl+k n, Mac: cmd+k n) , Debug Odoo Server (Win&Linux: ctrl+k ctrl+n, Mac: cmd+k cmd+n), Debug Odoo Javascript (Win&Linux: ctrl+k j, Mac: cmd+k j)
 
-=======
->>>>>>> parent of 8704eb8 ([ADD] Add Shortcuts for new commands)
 ## Version 0.18.0
 
 - Buttons have been added to start and debug the Odoo server, in addition to the button to debug javascript and the button to add configurations for the launch
