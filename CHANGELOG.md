@@ -1,5 +1,13 @@
 # Change Log
 
+## Version 0.20.0
+
+- The possibility of scanning has been added to all workspaces that are incorporated into our project.
+- A new provider related to the Odoo source addons and, if applicable, those of the enterprise has been added.
+  ![Context](https://github.com/mjavint/odoo-shortcuts/blob/main/img/new-provider.png?raw=true)
+- I have improved the interaction between the start and debug of the Odoo server by being able to leave the configuration arguments blank in the webview, in addition to saving the last configuration used once we reopen the project.
+- Updated the widget list in the oowidgets snippet.
+
 ## Version 0.19.0
 
 - The context menu in File Explorer has been simplified
