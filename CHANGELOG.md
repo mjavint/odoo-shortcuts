@@ -1,5 +1,15 @@
 # Change Log
 
+## Version 0.21.0
+
+- It is now possible to load Odoo and Odoo Web Library documentation completely without the need to exit vscode
+  ![Context](https://github.com/mjavint/odoo-shortcuts/blob/main/img/demo-docs.gif?raw=true)
+
+- Two new snippets have been added:
+  - oolistedit - List Editable in Odoo 18
+  - oovlist - Add new list view in Odoo 18
+  - All snippets have been updated to Odoo version 18
+
 ## Version 0.20.0
 
 - The possibility of scanning has been added to all workspaces that are incorporated into our project.
