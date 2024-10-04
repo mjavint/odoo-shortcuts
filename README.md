@@ -1,8 +1,6 @@
 # Odoo Shortcuts
 
-Generates addon, models, views, reports, wizard, components, widget, actions, services in OWL and other necessary files referring to the two main frameworks (Python, Javascript). It has integrated server startup, debugging in Python and Javascript. Features powerful snippets for all file types including Python, Javascript, CSV and XML
-
-> Note: The commands shown must be executed by clicking on the addon that is created.
+Generates all existing types of Odoo files, including addons and configurations. It has integrated server-side startup and debugging, including javascript (OWL). It has powerful snippets that will help you write code much faster in different files (\*.py, \*.js, \*.csv, \*.xml).
 
 ## Screenshots
 
@@ -49,6 +47,7 @@ Generates addon, models, views, reports, wizard, components, widget, actions, se
 * Added the functionality to create inherited views.
 * Added the functionality to create paper format to the reports.
 * The possibility has been added to transform the data file (example: account.move.csv) to its corresponding xml file (account_move_data.xml) with noupdate set to True activated by default so that it is only loaded once.
+* It is now possible to add your own documentation resources via the `odooShortcuts.sites` configuration
 
 ## How to install
 

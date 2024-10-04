@@ -1,5 +1,24 @@
 # Change Log
 
+## Version 0.22.0
+
+- Full support has been added to Odoo 18.
+- It is now possible to add your own documentation resources via the `odooShortcuts.sites` configuration
+
+  ```json
+  "odooShortcuts.sites": [
+    {
+      "label": "Resource Label",
+      "url": "Resource URL"
+    }
+  ]
+  ```
+
+  ![Site 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/add-site-1.png?raw=true)
+  ![Site 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/add-site-2.png?raw=true)
+
+- Performance improvements have been added.
+
 ## Version 0.21.0
 
 - It is now possible to load Odoo and Odoo Web Library documentation completely without the need to exit vscode
