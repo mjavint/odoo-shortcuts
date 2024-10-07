@@ -1,5 +1,10 @@
 # Change Log
 
+## Version 0.23.0
+
+- Support for string templates in python
+  ![Python String Template ](https://github.com/mjavint/odoo-shortcuts/blob/main/img/py-string-template.gif?raw=true)
+
 ## Version 0.22.0
 
 - Full support has been added to Odoo 18.
