@@ -48,6 +48,7 @@ Generates all existing types of Odoo files, including addons and configurations.
 * Added the functionality to create paper format to the reports.
 * The possibility has been added to transform the data file (example: account.move.csv) to its corresponding xml file (account_move_data.xml) with noupdate set to True activated by default so that it is only loaded once.
 * It is now possible to add your own documentation resources via the `odooShortcuts.sites` configuration
+* Support for string templates in python
 
 ## How to install
 
