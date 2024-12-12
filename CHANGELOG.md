@@ -1,5 +1,14 @@
 # Change Log
 
+## Version 0.25.0
+
+- Better handling of Odoo Server start, debug and stop buttons in the statusbar
+  ![Handling Debug ](https://github.com/mjavint/odoo-shortcuts/blob/main/img/handling-debug.gif?raw=true)
+
+## Version 0.24.0
+
+- Support for string templates in javascript
+
 ## Version 0.23.0
 
 - Support for string templates in python
