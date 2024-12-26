@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 0.26.0
+
+- The handling of the Odoo launcher has been improved, allowing you to activate the boot configuration from the board.
+- More user messages have been added.
+- Fixed a bug that caused it not to be imported in the `__init__.py` of the wizard module
+
 ## Version 0.25.0
 
 - Better handling of Odoo Server start, debug and stop buttons in the statusbar
