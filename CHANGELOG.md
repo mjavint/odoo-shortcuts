@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 0.27.0
+
+- The OWL action, common, field and public templates have been modernized to make them more readable and compact.
+
 ## Version 0.26.0
 
 - The handling of the Odoo launcher has been improved, allowing you to activate the boot configuration from the board.
