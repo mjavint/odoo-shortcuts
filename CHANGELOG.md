@@ -4,7 +4,7 @@
 
 - The functionality to open files created and updated by Odoo Shortcuts in the editor has been implemented in a configurable way, which is disabled by default. Thanks to [RafaelAngelRamirez](https://github.com/RafaelAngelRamirez) for proposing the feature [#10](https://github.com/mjavint/odoo-shortcuts/issues/10)
   ![Open Files Config](https://github.com/mjavint/odoo-shortcuts/blob/main/img/open-files-config.png?raw=true)
-- Se ha agregado placeholder mas descriptivos incluyendo su correspondiente ejemplo.
+- More descriptive placeholders have been added, including their corresponding example.
 
 ## Version 0.27.0
 
