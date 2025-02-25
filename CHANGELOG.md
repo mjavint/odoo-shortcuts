@@ -2,6 +2,9 @@
 
 ## Version 0.28.0
 
+- Add Feature New Security File
+  ![New Feat Security 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/feat-security-1.png?raw=true)
+  ![New Feat Security 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/feat-security-2.png?raw=true)
 - The functionality to open files created and updated by Odoo Shortcuts in the editor has been implemented in a configurable way, which is disabled by default. Thanks to [RafaelAngelRamirez](https://github.com/RafaelAngelRamirez) for proposing the feature [#10](https://github.com/mjavint/odoo-shortcuts/issues/10)
   ![Open Files Config](https://github.com/mjavint/odoo-shortcuts/blob/main/img/open-files-config.png?raw=true)
 - More descriptive placeholders have been added, including their corresponding example.
