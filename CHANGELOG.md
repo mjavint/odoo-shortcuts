@@ -4,8 +4,12 @@
 
 - A new feature has been added, now with the possibility to search and copy your odoo (oi) and fontawesome (fa) icon from a panel inside vscode offline.
   ![Icon Odoo and Font Awesome](https://github.com/mjavint/odoo-shortcuts/blob/main/img/fa.gif?raw=true)
+
 - The Odoo Shortcuts settings panel has been fixed for light themes, reported by several users.
-  |![Panel Config Dark](https://github.com/mjavint/odoo-shortcuts/blob/main/img/panel-config-dark.png?raw=true) | ![Panel Config Light](https://github.com/mjavint/odoo-shortcuts/blob/main/img/panel-config-light.png?raw=true)|
+
+| Theme Dark | Theme Light   |
+|-|-|
+| ![Panel Config Dark](https://github.com/mjavint/odoo-shortcuts/blob/main/img/panel-config-dark.png?raw=true)  | ![Panel Config Light](https://github.com/mjavint/odoo-shortcuts/blob/main/img/panel-config-light.png?raw=true)   |
 
 ## Version 0.28.0
 
