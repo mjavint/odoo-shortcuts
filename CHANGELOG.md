@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 0.30.0
+
+- Full support for odoo 19 has been added
+
 ## Version 0.29.0
 
 - A new feature has been added, now with the possibility to search and copy your odoo (oi) and fontawesome (fa) icon from a panel inside vscode offline.
