@@ -1,5 +1,10 @@
 # Change Log
 
+## Version 0.31.0
+
+- We have improved the Odoo explorer, now faster, more intuitive and with more commands in the context menu.
+- A new repository and addon scanning system has been added.
+
 ## Version 0.30.0
 
 - Full support for odoo 19 has been added
