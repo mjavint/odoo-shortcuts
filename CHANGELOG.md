@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 0.33.0
+
+- Se ha agregado el autompletado de opciones de inicio de Odoo
+| Theme Dark | Theme Light   |
+|-|-|
+| ![Odoo Launch Configuration](https://github.com/mjavint/odoo-shortcuts/blob/main/img/odoo-launch-dark.png?raw=true)  | ![Odoo Launch Configuration](https://github.com/mjavint/odoo-shortcuts/blob/main/img/odoo-launch-light.png?raw=true)   |
+
 ## Version 0.32.0
 
 - Improvements have been added to the visualization of repositories and addons in the Odoo Explorer.
