@@ -2,7 +2,7 @@
 
 ## Version 0.33.0
 
-- Se ha agregado el autompletado de opciones de inicio de Odoo.
+- Odoo startup options autocompletion has been added.
 
 | Theme Dark | Theme Light |
 |-|-|
