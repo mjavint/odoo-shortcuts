@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 0.32.0
+
+- Improvements have been added to the visualization of repositories and addons in the Odoo Explorer.
+- The option to hide and show repositories and addons in the Odoo Explorer has been added.
+![Icon Odoo and Font Awesome](https://github.com/mjavint/odoo-shortcuts/blob/main/img/hide-show-addon-repo.gif?raw=true)
+- We have fully implemented [[FEAT] Improvement in addon visualization in Odoo Explorer](https://github.com/mjavint/odoo-shortcuts/issues/14) suggested by [Adnier Roselló](https://github.com/arc87)
+
 ## Version 0.31.0
 
 - We have improved the Odoo explorer, now faster, more intuitive and with more commands in the context menu.
