@@ -1,5 +1,13 @@
 # Change Log
 
+## Version 0.34.0
+
+- A filter for repositories in the Odoo explorer has been added `ctrl+k ctrl+f` (windows/linux) and `cmd+k cmd+f` (mac).
+![Repos Filter](https://github.com/mjavint/odoo-shortcuts/blob/main/img/repos-filter.gif?raw=true)
+
+- The Fontawesome Picker and online Documentation have been moved to the status bar for faster access.
+![Picker-Docs](https://github.com/mjavint/odoo-shortcuts/blob/main/img/move-picker-doc.png?raw=true)
+
 ## Version 0.33.0
 
 - Odoo startup options autocompletion has been added.

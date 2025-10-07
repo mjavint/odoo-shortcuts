@@ -32,6 +32,7 @@ Improve your productivity, speed and efficiency developing in Odoo, creating sca
 * Intuitive and easy to use Odoo explorer.
 * XPath handling using the context menu.
 * Path handling in `*.js` files using the context menu.
+* Filtrar repos en Odoo Explorer `ctrl+k ctrl+f` (windows/linux) y `cmd+k cmd+f` (mac).
 
 ## How to install
 
