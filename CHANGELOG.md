@@ -1,5 +1,10 @@
 # Change Log
 
+## Version 0.35.0
+
+- The ability to create test files for the server side (Odoo Python Test Case) and for the client side (Odoo Javascript Test with Hoot) has been added.
+![Test files](https://github.com/mjavint/odoo-shortcuts/blob/main/img/feature-test.mp4?raw=true)
+
 ## Version 0.34.0
 
 - A filter for repositories in the Odoo explorer has been added `ctrl+k ctrl+f` (windows/linux) and `cmd+k cmd+f` (mac).
