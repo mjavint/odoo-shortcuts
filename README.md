@@ -23,6 +23,7 @@ Improve your productivity, speed and efficiency developing in Odoo, creating sca
 ## Features
 
 * Create addon, odoo configuration, odoo python modules, python files (Model, Inherit Model, Wizard, Report, Controller, ...), xml files (Views, View Inherit, Window Actions, Cron Actions, Client Actions, Server Actions, Paper Format, ...) and OWL javascript files (field, common, action, public, services, ... component). Full handling for importing and updating files during creation and update.
+* Create test files for the server side (Odoo Python Test Case) and for the client side (Odoo Javascript Test with Hoot) has been added
 * Flexible and extensible Odoo Server Startup and Debug Configuration Panel, integrated and native startup and debug in the status bar in the editor.
 * The possibility has been added to transform the data file (example: account.move.csv) to its corresponding xml file (account_move_data.xml) with noupdate set to True activated by default so that it is only loaded once.
 * It is now possible to add your own documentation resources via the `odooShortcuts.sites` configuration.

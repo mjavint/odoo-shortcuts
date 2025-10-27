@@ -3,7 +3,7 @@
 ## Version 0.35.0
 
 - The ability to create test files for the server side (Odoo Python Test Case) and for the client side (Odoo Javascript Test with Hoot) has been added.
-![Test files](https://github.com/mjavint/odoo-shortcuts/blob/main/img/feature-test.mp4?raw=true)
+![Test files](https://github.com/mjavint/odoo-shortcuts/blob/main/img/feature-test.gif?raw=true)
 
 ## Version 0.34.0
 
