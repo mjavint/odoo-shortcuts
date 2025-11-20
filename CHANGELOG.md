@@ -1,6 +1,59 @@
 # Change Log
 
-All notable changes to the "Odoo Shortcuts" extension are documented in this file.
+## Version 0.37.0
+
+### Added - OWL/JavaScript Language Server (LSP)
+
+### Screenshots
+
+![01](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-owl-lsp.png?raw=true)
+![02](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-owl-lsp.png?raw=true)
+![03](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-owl-lsp.png?raw=true)
+![04](https://github.com/mjavint/odoo-shortcuts/blob/main/img/03-owl-lsp.png?raw=true)
+
+#### 🎯 Intelligent Code Completion
+
+- **Complete Autocompletion**: Autocomplete for all functions, classes, hooks, and constants from all scanned addons
+- **Smart Auto-Import**: Automatically adds import statements when selecting symbols
+- **Member Completion**: Autocomplete for class methods and properties when typing `object.` or `Class.`
+
+#### 🔍 Advanced Navigation
+
+- **Go to Definition**: Navigate to symbol definitions with `F12`
+- **Automatic OWL Detection**: Recursively searches and indexes OWL library from workspace
+- **Cross-Addon Navigation**: Jump to definitions in any addon in your workspace
+
+#### 📚 Rich Documentation
+
+- **Hover Information**: View symbol documentation, signatures, and JSDoc on hover
+- **Signature Help**: Parameter hints when typing function calls
+- **Type Information**: Display parameter types and return types
+
+#### 🧠 Smart Type Inference
+
+- **Return Type Detection**: Infers return types from JSDoc, TypeScript annotations, and `return new` statements
+- **Variable Type Tracking**: Tracks types through variable declarations and assignments
+- **Chained Type Resolution**: Follows property chains to determine final types
+
+#### ⚡ Performance
+
+- **Incremental Indexing**: Updates symbols as you type
+- **Efficient Caching**: Smart caching system for fast lookups
+- **Background Scanning**: Non-blocking workspace scanning
+
+#### 🚀 Getting Started
+
+1. The LSP starts automatically when you open JavaScript/TypeScript files
+2. Works with any workspace containing Odoo addons
+3. Automatically detects and indexes OWL library
+4. Restart LSP: `Ctrl+Shift+P` → "Restart Odoo LSP"
+
+#### 🔄 Commands
+
+- **Restart Odoo LSP**: Restart the language server
+- **Reindex JavaScript**: Manually trigger re-indexing of all JavaScript files
+
+---
 
 ## Version 0.36.1
 

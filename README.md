@@ -14,11 +14,12 @@ Odoo Shortcuts is a comprehensive VS Code extension designed to boost your produ
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
 - [Core Features](#-core-features)
-  - [Addon Explorer](#1-addon-explorer)
-  - [Scaffold Generation](#2-scaffold-generation)
-  - [CodeLens Integration](#3-codelens-integration)
-  - [Server Management](#4-server-management)
-  - [Developer Tools](#5-developer-tools)
+  - [OWL/JavaScript Language Server](#1-owljavascript-language-server-)
+  - [Addon Explorer](#2-addon-explorer)
+  - [Scaffold Generation](#3-scaffold-generation)
+  - [CodeLens Integration](#4-codelens-integration)
+  - [Server Management](#5-server-management)
+  - [Developer Tools](#6-developer-tools)
 - [Commands](#-commands)
 - [Configuration](#-configuration)
 - [Keyboard Shortcuts](#-keyboard-shortcuts)
@@ -30,6 +31,7 @@ Odoo Shortcuts is a comprehensive VS Code extension designed to boost your produ
 
 ### Core Capabilities
 
+- **🚀 OWL/JavaScript Language Server (NEW!)** - Intelligent code completion, navigation, and type checking for OWL components
 - **🏗️ Intelligent Scaffolding** - Generate complete Odoo structures with proper imports and manifest updates
 - **🔍 Smart Explorer** - Navigate your Odoo addons with a dedicated tree view
 - **💡 CodeLens Integration** - Quick actions directly in your Python model files
@@ -63,7 +65,83 @@ Odoo Shortcuts is a comprehensive VS Code extension designed to boost your produ
 
 ## 🎨 Core Features
 
-### 1. Addon Explorer
+### 1. OWL/JavaScript Language Server 🆕
+
+A powerful Language Server Protocol (LSP) implementation providing intelligent code completion, navigation, and type checking for OWL/JavaScript development.
+
+**✨ Key Features:**
+
+#### Intelligent Code Completion
+
+- **Auto-completion** for all functions, classes, hooks, and constants from OWL and your addons
+- **Smart Auto-Import** - Automatically adds import statements
+- **Member Completion** - Type `object.` to see all methods and properties
+
+```javascript
+// Example: Type and get instant suggestions
+import { Component, useState } from '@odoo/owl';  // Auto-imported!
+
+class MyComponent extends Component {
+    setup() {
+        this.state = useState({ count: 0 });  // Auto-complete
+        this.  // Shows all Component methods
+    }
+}
+
+MyComponent.  // Shows: template, components, props, etc.
+```
+
+#### Advanced Navigation
+
+- **Go to Definition** (`F12`) - Jump to any symbol definition
+- **Cross-Addon Navigation** - Navigate between addons seamlessly
+- **Automatic OWL Detection** - Finds and indexes OWL library automatically
+
+#### Rich Documentation
+
+- **Hover Information** - View documentation on hover
+- **Signature Help** - Parameter hints while typing
+- **Type Information** - See parameter types and return types
+
+#### Smart Type Inference
+
+- Infers types from JSDoc, TypeScript annotations, and code patterns
+- Tracks variable types through assignments
+- Resolves chained property access
+
+#### Comprehensive Symbol Support
+
+- **OWL Framework**: Component, hooks (`useState`, `useRef`, `useEffect`), lifecycle methods
+- **Odoo Core**: `registry`, `services`, common patterns
+- **Custom Addons**: All your exported symbols
+- **40+ Type Definitions** included
+
+**🎯 Examples:**
+
+```javascript
+// Cross-addon imports with autocomplete
+import { MyHelper } from '@my_addon/utils/helpers';
+
+// Component with full IntelliSense
+class MyComponent extends Component {
+    static template = xml`<div>...</div>`;
+    static components = { OtherComponent };  // Autocompletes from your addons
+
+    setup() {
+        this.state = useState({ items: [] });
+        this.env.services.  // Autocompletes available services
+    }
+}
+```
+
+**⚡ Commands:**
+
+- `Restart Odoo LSP` - Restart the language server
+- `Reindex JavaScript` - Manually re-index all JavaScript files
+
+---
+
+### 2. Addon Explorer
 
 A dedicated tree view for navigating your Odoo projects.
 
@@ -81,7 +159,7 @@ A dedicated tree view for navigating your Odoo projects.
 2. Browse your addon structure
 3. Right-click on any item for context actions
 
-### 2. Scaffold Generation
+### 3. Scaffold Generation
 
 Create complete Odoo structures with proper boilerplate code.
 
@@ -172,7 +250,7 @@ class SaleCustomLine(models.Model):
 - Python tests (TransactionCase, HttpCase, etc.)
 - JavaScript/OWL tests
 
-### 3. CodeLens Integration
+### 4. CodeLens Integration
 
 Quick actions appear directly above your model definitions.
 
@@ -197,7 +275,7 @@ class SaleOrder(models.Model):
 
 - **Create Inherit Views** - Generate view inheritance structure
 
-### 4. Server Management
+### 5. Server Management
 
 Manage Odoo server instances directly from VS Code.
 
@@ -232,7 +310,7 @@ Manage Odoo server instances directly from VS Code.
 }
 ```
 
-### 5. Developer Tools
+### 6. Developer Tools
 
 #### XPath Tools
 
@@ -322,6 +400,13 @@ All commands are accessible via:
 | `Odoo: Filter Addons` | Filter addons by repository |
 | `Odoo: Clear Filter` | Clear addon filter |
 | `Odoo: Collapse All` | Collapse all tree items |
+
+### LSP Commands
+
+| Command | Description |
+|---------|-------------|
+| `Odoo: Restart LSP` | Restart the OWL/JavaScript language server |
+| `Odoo: Reindex JavaScript` | Manually re-index all JavaScript files |
 
 ### Developer Commands
 
@@ -468,6 +553,7 @@ Special thanks to all contributors and users who have helped improve this extens
 **Enjoy developing with Odoo Shortcuts!** 🚀
 
 If you find this extension helpful, please consider:
+
 - ⭐ [Starring the repository](https://github.com/mjavint/odoo-shortcuts)
 - ✍️ [Leaving a review](https://marketplace.visualstudio.com/items?itemName=mvintg.odoo-file&ssr=false#review-details)
 - 🐛 [Reporting issues](https://github.com/mjavint/odoo-shortcuts/issues)
