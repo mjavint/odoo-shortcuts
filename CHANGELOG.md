@@ -2,6 +2,12 @@
 
 All notable changes to the "Odoo Shortcuts" extension are documented in this file.
 
+## Version 0.36.1
+
+### Fixed
+
+- **Status Bar**: Improved visibility and responsiveness of status bar items during Odoo server operations. Fixed issue [#23](https://github.com/mjavint/odoo-shortcuts/issues/23) detected by [Gusti Tammam](https://github.com/gustitammam)
+
 ## Version 0.36.0
 
 ### Added
