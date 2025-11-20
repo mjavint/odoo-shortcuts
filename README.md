@@ -69,10 +69,10 @@ Odoo Shortcuts is a comprehensive VS Code extension designed to boost your produ
 
 #### Screenshots
 
-![01](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-owl-lsp.png?raw=true)
-![02](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-owl-lsp.png?raw=true)
-![03](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-owl-lsp.png?raw=true)
-![04](https://github.com/mjavint/odoo-shortcuts/blob/main/img/03-owl-lsp.png?raw=true)
+* ![01](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-owl-lsp.png?raw=true)
+* ![02](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-owl-lsp.png?raw=true)
+* ![03](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-owl-lsp.png?raw=true)
+* ![04](https://github.com/mjavint/odoo-shortcuts/blob/main/img/03-owl-lsp.png?raw=true)
 
 A powerful Language Server Protocol (LSP) implementation providing intelligent code completion, navigation, and type checking for OWL/JavaScript development.
 
