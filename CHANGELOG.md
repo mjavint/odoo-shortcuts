@@ -1,5 +1,31 @@
 # Change Log
 
+## Version 0.37.1
+
+### Improved
+
+#### 📚 Enhanced Hover Documentation
+
+- **Improved Parameters Display**: Parameter names now appear in bold with types clearly visible
+- **Better Type Information**: Types from both JSDoc and TypeScript are unified and displayed consistently
+- **Clearer Formatting**: Parameter descriptions are shown on separate lines with proper indentation
+- **Default Values**: Default parameter values are now displayed as `default: value` for better clarity
+- **Auto-generated Usage Examples**: Functions without JSDoc examples now show automatic usage examples based on parameter types
+- **Compact Layout**: Reduced font sizes and improved spacing for a more professional appearance
+
+#### ⚡ Scan Progress Indicator
+
+- **Real-time Progress**: Status bar now shows indexing progress with percentage during JavaScript file scanning
+- **Visual Feedback**: Animated spinner icon and percentage counter (`$(sync~spin) Indexing JS: XX%`)
+- **Automatic Hide**: Progress indicator disappears automatically when scan completes
+- **Applies to Reindex**: Progress indicator also works when manually reindexing JavaScript files
+
+#### 📝 Updated Extension Description
+
+- More concise and focused description highlighting key features
+- Better emphasis on LSP with IntelliSense capabilities
+- Clearer presentation of integrated debugging and addon management
+
 ## Version 0.37.0
 
 ### Added - OWL/JavaScript Language Server (LSP)
