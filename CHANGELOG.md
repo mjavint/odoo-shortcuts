@@ -1,5 +1,28 @@
 # Change Log
 
+## Version 0.37.2
+
+### Fixed
+
+- **Issues**:
+  - Resolved webview display issues in configuration and icon picker panels. Fixed issue [#25](https://github.com/mjavint/odoo-shortcuts/issues/25) detected by [Gusti Tammam](https://github.com/gustitammam)
+
+### Added
+
+- **New Explorer Views**:
+  - Added Addons Explorer tree view for browsing and managing Odoo addons
+  - Added Configurations Explorer tree view for managing launch configurations
+  - Both views are available in the Explorer sidebar under "Odoo" container
+- **Demo**:
+  ![Demo](https://github.com/mjavint/odoo-shortcuts/blob/main/img/explorer-core-enterprise-view.gif?raw=true)
+
+### Changed
+
+- **Configuration Requirements**:
+  - Updated settings schema to support new explorer views
+  - Added workspace scanning configuration for addon detection
+  - Enhanced launch configuration management through dedicated tree view
+
 ## Version 0.37.1
 
 ### Improved
