@@ -1,5 +1,120 @@
 # Change Log
 
+## Version 0.38.0
+
+### Added
+
+#### 🎨 File Header Templates. [FEAT](https://github.com/mjavint/odoo-shortcuts/issues/15) suggested by [Jerome Sonnet (letzdoo)](https://github.com/letzdoo-js)
+
+- **Customizable Header Templates**: Configure custom file headers based on file type (Python, XML, JavaScript)
+- **Template Variables**: Support for dynamic variables like `{{year}}`, `{{author}}`, `{{email}}`, `{{company}}`, `{{license}}`, `{{date}}`
+- **License Options**: Multiple license options (LGPL-3, GPL-3, AGPL-3, MIT, Apache-2.0, BSD-3-Clause, Custom)
+- **Auto-Insert Headers**: Automatically insert headers when creating new files (can be enabled/disabled)
+
+**Configuration Examples**:
+
+```json
+{
+  "odooShortcuts.fileHeaders.enabled": true,
+  "odooShortcuts.fileHeaders.author": "John Doe",
+  "odooShortcuts.fileHeaders.email": "john.doe@example.com",
+  "odooShortcuts.fileHeaders.company": "My Company",
+  "odooShortcuts.fileHeaders.license": "LGPL-3",
+  "odooShortcuts.fileHeaders.pythonTemplate": "# -*- coding: utf-8 -*-\n# Copyright {{year}} {{company}}\n# License {{license}}\n\n",
+  "odooShortcuts.fileHeaders.xmlTemplate": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--\n  Copyright {{year}} {{company}}\n  License {{license}}\n-->\n\n",
+  "odooShortcuts.fileHeaders.javascriptTemplate": "/** @odoo-module **/\n// Copyright {{year}} {{company}}\n// License {{license}}\n\n"
+}
+```
+
+#### 🔐 Environment Variables in Odoo Launch Configuration. [FEAT](https://github.com/mjavint/odoo-shortcuts/issues/20) suggested by [Carlos Alberto Montalvo Tagle](https://github.com/CarlosMontalvo-4ce)
+
+- **ENV Variable Support**: Use environment variables in launch configurations with `${VAR}` or `$VAR` syntax
+- **Intelligent Autocomplete**: Smart autocomplete for environment variables in all configuration fields
+- **Secure Value Display**: Environment variable values are hidden by default with `***`
+- **Toggle Visibility**: Click eye icon to show/hide actual values securely
+- **Multiple Sources**: Reads environment variables from:
+  - System environment (`process.env`)
+  - Configurable shell files (`.zshrc`, `.bashrc`, `.bash_profile`)
+- **Security Filters**: Automatically excludes sensitive variables (PASSWORD, SECRET, TOKEN, API, AUTH, CREDENTIAL)
+
+**Configuration Examples**:
+
+```json
+{
+  "odooShortcuts.envFiles": [
+    "~/.zshrc",
+    "~/.bashrc",
+    "~/.bash_profile",
+    "~/.env"
+  ]
+}
+```
+
+**Usage Examples in Launch Configuration**:
+
+```json
+{
+  "label": "Production",
+  "odooBinPath": "${HOME}/odoo/odoo-bin",
+  "odooConfPath": "${HOME}/.odoorc",
+  "config": [
+    "--database",
+    "$DB_NAME",
+    "--db-host",
+    "${DB_HOST}",
+    "--addons-path",
+    "${ODOO_ADDONS_PATH}"
+  ]
+}
+```
+
+#### 🎯 Redesigned Configuration UI
+
+- **Modern Modal Interface**: Configuration form now opens in a modal dialog
+- **Responsive Grid Layout**: Configuration cards displayed in responsive grid
+- **Visual Active Indicator**: Clear visual indication of active configuration with blue accent and "ACTIVE" badge
+- **Action Buttons**: Dedicated Edit and Delete buttons on each configuration card
+- **Delete Confirmation**: Safety modal to confirm configuration deletion
+- **Empty State**: Helpful empty state with call-to-action when no configurations exist
+
+#### ⚡ Performance Improvements
+
+- **Optimized Rendering**: Improved webview rendering performance
+- **Efficient Event Handling**: Better event delegation for configuration cards
+- **Smart Autocomplete**: Context-aware autocomplete with minimal overhead
+- **Lazy Loading**: Environment variables loaded on-demand
+- **Reduced Memory Usage**: More efficient data structures and caching
+
+### Improved
+
+#### 📝 CodeLens Enhancements
+
+- **Better Performance**: Optimized CodeLens actions for faster response
+- **Improved Stability**: Fixed edge cases that could cause CodeLens to fail
+- **Enhanced Reliability**: More robust detection of Odoo models and views
+- **Cleaner UI**: Better formatting and positioning of CodeLens actions
+
+### Changed
+
+- **Configuration File Format**: Launch configurations now support environment variable expansion
+- **Webview Architecture**: Complete rewrite of configuration webview for better UX
+- **Security Enhancements**: Added multiple layers of security for environment variable handling
+
+### Screenshots
+
+#### Environment Variables Autocomplete with Secure Value Display
+
+![WebView 02](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-webview-conf.png?raw=true)
+
+#### Modern Configuration UI
+
+![WebView 01](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-webview-conf.png?raw=true)
+
+#### Added Header License Templates
+
+![Header License Templates - 00](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-header-license.png?raw=true)
+![Header License Templates - 01](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-header-license.png?raw=true)
+
 ## Version 0.37.2
 
 ### Fixed
