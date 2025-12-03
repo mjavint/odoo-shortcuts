@@ -26,6 +26,7 @@
 - Automatic code generation following Odoo conventions
 
 #### 🔍 Folder Search in Odoo Explorer
+> Suggested by [Gusti Tammam](https://github.com/gustitammam) in [#26](https://github.com/mjavint/odoo-shortcuts/issues/26)
 
 - **Quick Search**: Search within specific folders in Odoo Explorer with `Ctrl+F` (Windows/Linux) or `Cmd+F` (Mac)
 - **Context Menu Integration**: Right-click on any folder to search within that specific location
