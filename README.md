@@ -537,34 +537,134 @@ Configure the extension via VS Code settings (`Ctrl+,` / `Cmd+,`):
 ```json
 {
   // Auto-open files after creation
-  "odooShortcuts.openFiles": false,
+  "odooShortcuts.openFiles": true,
+
+  // Manifest file patterns to detect Odoo addons
+  "odooShortcuts.manifestFiles": [
+    "__manifest__.py",
+    "__openerp__.py"
+  ],
+
+  // Auto-refresh tree view when files change
+  "odooShortcuts.autoRefresh": true,
 
   // Custom documentation sites
   "odooShortcuts.sites": [
     {
       "label": "Odoo Documentation",
       "url": "https://www.odoo.com/documentation"
+    },
+    {
+      "label": "OWL Documentation",
+      "url": "https://github.com/odoo/owl"
     }
+  ]
+}
+```
+
+### Odoo Server Paths
+
+Configure paths to Odoo core and enterprise addons for read-only exploration:
+
+```json
+{
+  // Absolute paths to Odoo server directories (can be anywhere in your system)
+  "odooShortcuts.odooServerPaths": [
+    "/home/user/odoo",           // Linux/macOS
+    "/opt/odoo/enterprise",      // Linux/macOS
+    "C:\\odoo",                  // Windows
+    "D:\\Projects\\odoo\\enterprise"  // Windows
   ],
 
-  // Manifest file patterns
-  "odooShortcuts.manifestFiles": [
-    "__manifest__.py",
-    "__openerp__.py"
+  // Path patterns to detect Odoo core addons (shown as read-only)
+  "odooShortcuts.coreAddonPatterns": [
+    "/odoo/addons/",
+    "/odoo/odoo/addons/",
+    "/openerp/addons/"
   ],
 
-  // Exclude patterns for addon scanner
-  "odooShortcuts.excludePatterns": [
-    "**/node_modules/**",
-    "**/.git/**",
-    "**/venv/**"
-  ],
+  // Path patterns to detect Odoo enterprise addons (shown as read-only)
+  "odooShortcuts.enterpriseAddonPatterns": [
+    "/enterprise/",
+    "/odoo/enterprise/"
+  ]
+}
+```
 
-  // Auto-refresh tree view
-  "odooShortcuts.autoRefresh": true,
+### CodeLens Settings
 
-  // Show hidden files in explorer
-  "odooShortcuts.showHiddenFiles": false
+```json
+{
+  // Enable/disable CodeLens for Odoo models
+  "odooFile.codelens.enabled": true
+}
+```
+
+### File Header Templates
+
+Configure automatic file headers with license and copyright information:
+
+```json
+{
+  // Enable automatic file headers
+  "odooShortcuts.fileHeaders.enabled": false,
+
+  // Author information
+  "odooShortcuts.fileHeaders.author": "Your Name",
+  "odooShortcuts.fileHeaders.email": "your.email@example.com",
+  "odooShortcuts.fileHeaders.company": "Your Company",
+
+  // License type
+  "odooShortcuts.fileHeaders.license": "LGPL-3",
+  // Options: "LGPL-3", "GPL-3", "AGPL-3", "MIT", "Apache-2.0", "BSD-3-Clause", "Custom"
+
+  // Custom license text (when license is "Custom")
+  "odooShortcuts.fileHeaders.customLicense": "",
+
+  // Python file header template
+  "odooShortcuts.fileHeaders.pythonTemplate": "# -*- coding: utf-8 -*-\n# Copyright {{year}} {{company}}\n# License {{license}}\n\n",
+
+  // XML file header template
+  "odooShortcuts.fileHeaders.xmlTemplate": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--\n  Copyright {{year}} {{company}}\n  License {{license}}\n-->\n\n",
+
+  // JavaScript file header template
+  "odooShortcuts.fileHeaders.javascriptTemplate": "/** @odoo-module **/\n// Copyright {{year}} {{company}}\n// License {{license}}\n\n"
+}
+```
+
+**Available template variables:**
+- `{{year}}` - Current year
+- `{{author}}` - Author name
+- `{{email}}` - Author email
+- `{{company}}` - Company name
+- `{{license}}` - License type
+- `{{date}}` - Current date (YYYY-MM-DD)
+
+### Environment Variables
+
+Configure shell files to read environment variables from:
+
+```json
+{
+  // Shell configuration files for environment variable expansion
+  "odooShortcuts.envFiles": [
+    "~/.zshrc",
+    "~/.bashrc",
+    "~/.bash_profile",
+    "~/.env"
+  ]
+}
+```
+
+**Usage in launch configurations:**
+```json
+{
+  "label": "Production",
+  "odooBinPath": "${HOME}/odoo/odoo-bin",
+  "config": [
+    "--database", "$DB_NAME",
+    "--db-host", "${DB_HOST}"
+  ]
 }
 ```
 
@@ -590,48 +690,27 @@ Configure Odoo servers via the Configuration Panel (status bar icon) or directly
 
 ## ⌨️ Keyboard Shortcuts
 
+### Windows/Linux
+
 | Shortcut | Command | Description |
 |----------|---------|-------------|
-| `Ctrl+K Ctrl+F` | Filter Addons | Filter addon tree |
-| `Ctrl+K Ctrl+C` | Clear Filter | Clear addon filter |
+| `Ctrl+Shift+D` | Open OWL File | Open file from import and navigate to definition |
+| `Ctrl+K N` | Start Odoo Server | Start the Odoo server with selected configuration |
+| `Ctrl+K Ctrl+N` | Debug Odoo Server | Start Odoo server in debug mode |
+| `Ctrl+K J` | Debug JavaScript | Start JavaScript/OWL debugger |
+| `Ctrl+K Ctrl+A` | Open Configuration | Open Odoo launch configuration panel |
+| `Ctrl+K Ctrl+F` | Filter Addons | Filter addons in Odoo Explorer |
 
-**Note:** Replace `Ctrl` with `Cmd` on macOS
+### macOS
 
-### Custom Shortcuts
-
-Add your own shortcuts in `keybindings.json`:
-
-```json
-{
-  "key": "ctrl+alt+o",
-  "command": "odooShortcuts.createNewAddonCommand",
-  "when": "explorerViewletVisible"
-}
-```
-
-## 🏗️ Architecture
-
-### Scaffold System
-
-Clean separation of concerns:
-
-```
-features/scaffold/
-├── python/
-│   ├── ModelScaffolder.ts        # Model generation
-│   ├── selectOdooPythonFile.ts   # Menu interface
-│   └── utils/                    # Utilities for each type
-├── xml/
-│   ├── ViewScaffolder.ts         # View generation
-│   ├── selectOdooXmlFile.ts      # Menu interface
-│   └── utils/                    # Utilities for each type
-├── security/
-│   └── SecurityScaffolder.ts     # Security generation
-├── owl/
-│   └── OWLScaffolder.ts          # OWL generation
-└── tests/
-    └── TestsScaffolder.ts        # Test generation
-```
+| Shortcut | Command | Description |
+|----------|---------|-------------|
+| `Cmd+Shift+D` | Open OWL File | Open file from import and navigate to definition |
+| `Cmd+K N` | Start Odoo Server | Start the Odoo server with selected configuration |
+| `Cmd+K Cmd+N` | Debug Odoo Server | Start Odoo server in debug mode |
+| `Cmd+K J` | Debug JavaScript | Start JavaScript/OWL debugger |
+| `Cmd+K Cmd+A` | Open Configuration | Open Odoo launch configuration panel |
+| `Cmd+K Cmd+F` | Filter Addons | Filter addons in Odoo Explorer |
 
 ## 🐛 Known Issues
 
