@@ -72,10 +72,12 @@ Odoo Shortcuts is a comprehensive VS Code extension designed to boost your produ
 
 #### Screenshots
 
-| | |
-|---|---|
-| ![01](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-owl-lsp.png?raw=true) | ![02](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-owl-lsp.png?raw=true) |
-| ![03](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-owl-lsp.png?raw=true) | ![04](https://github.com/mjavint/odoo-shortcuts/blob/main/img/03-owl-lsp.png?raw=true) |
+| OWL/JavaScript Language Server |
+|---|
+| ![01](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-owl-lsp.png?raw=true) |
+| ![02](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-owl-lsp.png?raw=true) |
+| ![03](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-owl-lsp.png?raw=true) |
+| ![04](https://github.com/mjavint/odoo-shortcuts/blob/main/img/03-owl-lsp.png?raw=true) |
 
 A powerful Language Server Protocol (LSP) implementation providing intelligent code completion, navigation, and type checking for OWL/JavaScript development.
 
@@ -154,12 +156,12 @@ class MyComponent extends Component {
 ### 2. Addon Explorer
 
 A dedicated tree view for navigating your Odoo projects.
-
-| | |
-|---|---|
-| ![Explorer 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-explorer.jpeg?raw=true) | ![Explorer 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-explorer.jpeg?raw=true) |
-| ![Explorer 3](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-explorer.jpeg?raw=true) | ![Explorer 4](https://github.com/mjavint/odoo-shortcuts/blob/main/img/03-explorer.jpeg?raw=true) |
-| ![Explorer 5](https://github.com/mjavint/odoo-shortcuts/blob/main/img/04-explorer.jpeg?raw=true) | ![Explorer 6](https://github.com/mjavint/odoo-shortcuts/blob/main/img/05-explorer.jpeg?raw=true) |
+![Explorer 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-explorer.jpeg?raw=true)
+![Explorer 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-explorer.jpeg?raw=true)
+![Explorer 3](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-explorer.jpeg?raw=true)
+![Explorer 4](https://github.com/mjavint/odoo-shortcuts/blob/main/img/03-explorer.jpeg?raw=true)
+![Explorer 5](https://github.com/mjavint/odoo-shortcuts/blob/main/img/04-explorer.jpeg?raw=true)
+![Explorer 6](https://github.com/mjavint/odoo-shortcuts/blob/main/img/05-explorer.jpeg?raw=true)
 
 **Features:**
 - 📁 Browse all addons in your workspace
@@ -327,10 +329,10 @@ Manage Odoo server instances directly from VS Code.
 ### 6. Model Fields Visual Editor 🆕
 
 Manage Odoo model fields through an intuitive visual interface.
-
-| Model Fields Editor | Model Fields Editor |
-|---|---|
-| ![Model Fields Editor1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-model-editor-fields.jpeg?raw=true) | ![Model Fields Editor2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-model-editor-fields.jpeg?raw=true) |
+| Model Fields Visual Editor |
+|---|
+| ![Model Fields Editor1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-model-editor-fields.jpeg?raw=true) |
+| ![Model Fields Editor2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-model-editor-fields.jpeg?raw=true) |
 
 **✨ Key Features:**
 
