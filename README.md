@@ -19,7 +19,8 @@ Odoo Shortcuts is a comprehensive VS Code extension designed to boost your produ
   - [Scaffold Generation](#3-scaffold-generation)
   - [CodeLens Integration](#4-codelens-integration)
   - [Server Management](#5-server-management)
-  - [Developer Tools](#6-developer-tools)
+  - [Model Fields Visual Editor](#6-model-fields-visual-editor-)
+  - [Developer Tools](#7-developer-tools)
 - [Commands](#-commands)
 - [Configuration](#-configuration)
 - [Keyboard Shortcuts](#-keyboard-shortcuts)
@@ -32,6 +33,8 @@ Odoo Shortcuts is a comprehensive VS Code extension designed to boost your produ
 ### Core Capabilities
 
 - **🚀 OWL/JavaScript Language Server (NEW!)** - Intelligent code completion, navigation, and type checking for OWL components
+- **🎨 Model Fields Visual Editor (NEW!)** - Visual interface to manage Odoo model fields with CRUD operations
+- **🔍 Folder Search (NEW!)** - Quick search within specific folders in Odoo Explorer
 - **🏗️ Intelligent Scaffolding** - Generate complete Odoo structures with proper imports and manifest updates
 - **🔍 Smart Explorer** - Navigate your Odoo addons with a dedicated tree view
 - **💡 CodeLens Integration** - Quick actions directly in your Python model files
@@ -69,10 +72,10 @@ Odoo Shortcuts is a comprehensive VS Code extension designed to boost your produ
 
 #### Screenshots
 
-* ![01](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-owl-lsp.png?raw=true)
-* ![02](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-owl-lsp.png?raw=true)
-* ![03](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-owl-lsp.png?raw=true)
-* ![04](https://github.com/mjavint/odoo-shortcuts/blob/main/img/03-owl-lsp.png?raw=true)
+| | |
+|---|---|
+| ![01](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-owl-lsp.png?raw=true) | ![02](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-owl-lsp.png?raw=true) |
+| ![03](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-owl-lsp.png?raw=true) | ![04](https://github.com/mjavint/odoo-shortcuts/blob/main/img/03-owl-lsp.png?raw=true) |
 
 A powerful Language Server Protocol (LSP) implementation providing intelligent code completion, navigation, and type checking for OWL/JavaScript development.
 
@@ -152,7 +155,11 @@ class MyComponent extends Component {
 
 A dedicated tree view for navigating your Odoo projects.
 
-![General View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general.gif?raw=true)
+| | |
+|---|---|
+| ![Explorer 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-explorer.jpeg?raw=true) | ![Explorer 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-explorer.jpeg?raw=true) |
+| ![Explorer 3](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-explorer.jpeg?raw=true) | ![Explorer 4](https://github.com/mjavint/odoo-shortcuts/blob/main/img/03-explorer.jpeg?raw=true) |
+| ![Explorer 5](https://github.com/mjavint/odoo-shortcuts/blob/main/img/04-explorer.jpeg?raw=true) | ![Explorer 6](https://github.com/mjavint/odoo-shortcuts/blob/main/img/05-explorer.jpeg?raw=true) |
 
 **Features:**
 - 📁 Browse all addons in your workspace
@@ -261,7 +268,7 @@ class SaleCustomLine(models.Model):
 
 Quick actions appear directly above your model definitions.
 
-![CodeLens](https://github.com/mjavint/odoo-shortcuts/blob/main/img/codelens.gif?raw=true)
+![CodeLens](https://github.com/mjavint/odoo-shortcuts/blob/main/img/codelens.jpeg?raw=true)
 
 **Available Actions:**
 
@@ -317,7 +324,102 @@ Manage Odoo server instances directly from VS Code.
 }
 ```
 
-### 6. Developer Tools
+### 6. Model Fields Visual Editor 🆕
+
+Manage Odoo model fields through an intuitive visual interface.
+
+| Model Fields Editor | Model Fields Editor |
+|---|---|
+| ![Model Fields Editor1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-model-editor-fields.jpeg?raw=true) | ![Model Fields Editor2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-model-editor-fields.jpeg?raw=true) |
+
+**✨ Key Features:**
+
+#### Interactive Field Management
+
+- **Visual Editor** - Manage model fields without writing code
+- **Field CRUD** - Create, edit, and delete fields with intuitive forms
+- **All Field Types** - Support for Char, Text, Integer, Float, Boolean, Date, Datetime, Selection, Many2one, One2many, Many2many, and more
+- **Smart Attributes** - Priority attributes shown first based on field type
+- **Real-time Sync** - Changes immediately reflected in Python files
+- **Multi-Model Support** - Handle multiple models in the same file with tabs
+
+#### Safety Features
+
+- **Delete Confirmation** - Modal dialog confirms field deletion
+- **Validation** - Required attributes validated before saving
+- **Auto-formatting** - Generated code follows Odoo conventions
+- **Backup Safe** - Only modifies model files, keeps backups via version control
+
+**Usage:**
+
+1. Right-click on a model file (`.py`) → "Open with Model Fields Editor"
+2. Click **Add Field** to create a new field
+3. Click on any field card to **edit** its properties
+4. Click **Delete** button with confirmation to remove fields
+5. All changes are immediately saved to the Python file
+
+**Example Workflow:**
+
+```python
+# Before: Empty model
+class SaleOrder(models.Model):
+    _name = 'sale.order'
+    _description = 'Sales Order'
+
+# After: Using visual editor to add fields
+class SaleOrder(models.Model):
+    _name = 'sale.order'
+    _description = 'Sales Order'
+
+    name = fields.Char(string='Order Reference', required=True)
+    partner_id = fields.Many2one('res.partner', string='Customer')
+    date_order = fields.Datetime(string='Order Date', default=fields.Datetime.now)
+    state = fields.Selection([
+        ('draft', 'Draft'),
+        ('confirmed', 'Confirmed'),
+        ('done', 'Done')
+    ], string='Status', default='draft')
+```
+
+**Supported Attributes:**
+
+- **Common**: string, required, readonly, default, help, copy, index, store
+- **Computed**: compute, related, depends, inverse, search
+- **Relational**: comodel_name, inverse_name, relation, domain, context, ondelete
+- **Selection**: selection, selection_add
+- **Specific**: digits, currency_field, size, translate, sanitize, and many more
+
+### 7. Developer Tools
+
+#### Folder Search in Odoo Explorer 🆕
+
+Quickly search within specific folders of the Odoo Explorer.
+
+![Folder Search](https://github.com/mjavint/odoo-shortcuts/blob/main/img/search-in-folder.jpeg?raw=true)
+
+**Features:**
+
+- **Quick Search** - Search within any folder using `Ctrl+F` (Windows/Linux) or `Cmd+F` (Mac)
+- **Context Menu** - Right-click on any folder → "Search in Folder"
+- **Scoped Results** - Only shows files within the selected folder
+- **Fast Indexing** - Instant results with workspace indexing
+- **Pattern Matching** - Supports wildcards and regex patterns
+
+**Usage:**
+
+1. Right-click on any folder in Odoo Explorer
+2. Select "Search in Folder"
+3. Enter search pattern (e.g., `*.py`, `sale_order`, `def create`)
+4. Results filtered to selected folder only
+
+**Benefits:**
+
+- Find files quickly in large addon repositories
+- Scope searches to specific modules or folders
+- Reduce noise from workspace-wide searches
+- Navigate large codebases efficiently
+
+---
 
 #### XPath Tools
 

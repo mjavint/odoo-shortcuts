@@ -1,5 +1,55 @@
 # Change Log
 
+## Version 0.39.0
+
+### Added
+
+#### 🎨 Model Fields Visual Editor
+
+- **Interactive Field Editor**: Visual editor to manage Odoo model fields directly from VS Code
+- **Field CRUD Operations**: Create, edit, and delete model fields through an intuitive UI
+- **Field Type Support**: Support for all Odoo field types (Char, Text, Integer, Float, Boolean, Date, Datetime, Selection, Many2one, One2many, Many2many, etc.)
+- **Attribute Management**: Visual interface to configure field attributes (string, required, readonly, default, compute, etc.)
+- **Priority Attributes**: Most commonly used attributes shown first for each field type
+- **Real-time Synchronization**: Changes are immediately reflected in the Python model file
+- **Multi-Model Support**: Handle multiple models in the same file with tab navigation
+- **Delete Confirmation**: Safety modal to confirm field deletion before removing from model
+- **Centralized Logging**: All operations logged to "Odoo Shortcuts" output channel
+
+**Features**:
+- Open model files (`.py`) with the visual editor
+- Add new fields with intuitive form interface
+- Edit existing fields by clicking on field cards
+- Delete fields with confirmation modal
+- Support for computed fields, related fields, and all Odoo attributes
+- Smart attribute suggestions based on field type
+- Automatic code generation following Odoo conventions
+
+#### 🔍 Folder Search in Odoo Explorer
+
+- **Quick Search**: Search within specific folders in Odoo Explorer with `Ctrl+F` (Windows/Linux) or `Cmd+F` (Mac)
+- **Context Menu Integration**: Right-click on any folder to search within that specific location
+- **Scoped Search**: Filter results to show only files within the selected folder
+- **Performance**: Fast search results with workspace indexing
+
+### Improved
+
+- **Output Channel Management**: Unified logging system using "Odoo Shortcuts" channel for all features
+- **Error Handling**: Better error messages and user feedback for model field operations
+- **UI/UX**: Cleaner interface with reduced console noise and non-intrusive logging
+
+### Screenshots
+
+#### Model Fields Visual Editor
+
+| Model Fields Editor | Model Fields Editor |
+|---|---|
+| ![Model Fields Editor1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-model-editor-fields.jpeg?raw=true) | ![Model Fields Editor2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-model-editor-fields.jpeg?raw=true) |
+
+#### Folder Search in Odoo Explorer
+
+![Folder Search](https://github.com/mjavint/odoo-shortcuts/blob/main/img/search-in-folder.jpeg?raw=true)
+
 ## Version 0.38.0
 
 ### Added
