@@ -20,7 +20,8 @@ Odoo Shortcuts is a comprehensive VS Code extension designed to boost your produ
   - [CodeLens Integration](#4-codelens-integration)
   - [Server Management](#5-server-management)
   - [Model Fields Visual Editor](#6-model-fields-visual-editor-)
-  - [Developer Tools](#7-developer-tools)
+  - [XML Formatter](#7-xml-formatter-)
+  - [Developer Tools](#8-developer-tools)
 - [Commands](#-commands)
 - [Configuration](#-configuration)
 - [Keyboard Shortcuts](#-keyboard-shortcuts)
@@ -34,6 +35,7 @@ Odoo Shortcuts is a comprehensive VS Code extension designed to boost your produ
 
 - **🚀 OWL/JavaScript Language Server (NEW!)** - Intelligent code completion, navigation, and type checking for OWL components
 - **🎨 Model Fields Visual Editor (NEW!)** - Visual interface to manage Odoo model fields with CRUD operations
+- **📝 XML Formatter (NEW!)** - Odoo-specific XML formatter with smart attribute splitting and tag spacing
 - **🔍 Folder Search (NEW!)** - Quick search within specific folders in Odoo Explorer
 - **🏗️ Intelligent Scaffolding** - Generate complete Odoo structures with proper imports and manifest updates
 - **🔍 Smart Explorer** - Navigate your Odoo addons with a dedicated tree view
@@ -391,7 +393,53 @@ class SaleOrder(models.Model):
 - **Selection**: selection, selection_add
 - **Specific**: digits, currency_field, size, translate, sanitize, and many more
 
-### 7. Developer Tools
+### 7. XML Formatter 🆕
+
+A powerful and customizable XML formatter specifically designed for Odoo development.
+
+**✨ Key Features:**
+
+- **Odoo-Specific Formatting** - Understands Odoo XML structure and conventions
+- **Smart Attribute Splitting** - Automatically splits attributes onto new lines when they exceed line length or for specific tags
+- **Tag Spacing** - Automatically adds blank lines before major Odoo tags (record, menuitem, template, etc.)
+- **Comment Preservation** - Keeps your comments exactly where you put them
+- **QWeb Support** - Special handling for QWeb attributes (`t-`) ensuring they come first
+- **Configurable** - Extensive configuration options to match your coding style
+- **Exclude Patterns** - Prevent formatting of Odoo core and enterprise modules
+
+**Recommended Configuration:**
+
+Add this to your VS Code settings (`settings.json`) for optimal Odoo XML formatting:
+
+```json
+{
+  "odooShortcuts.formatter.splitAttributes": true,
+  "odooShortcuts.formatter.maxLineLength": 88,
+  "odooShortcuts.formatter.odooSpacingTags": [
+    "record",
+    "menuitem"
+  ],
+  "odooShortcuts.formatter.excludePatterns": [
+    "**/odoo/**",
+    "**/enterprise/**"
+  ]
+}
+```
+
+**Configuration Options:**
+
+- **splitAttributes**: Automatically split attributes onto new lines when they exceed `maxLineLength`
+- **maxLineLength**: Maximum line length before attributes are split (default: 88, matching Python's Black formatter)
+- **odooSpacingTags**: Tags that should have a blank line before them for better readability
+- **excludePatterns**: File patterns to exclude from formatting (useful for core Odoo and enterprise modules)
+
+**Usage:**
+
+1. Open any XML file in your Odoo project
+2. Right-click → "Format Document" or use `Shift+Alt+F` (Windows/Linux) / `Shift+Option+F` (Mac)
+3. The formatter will automatically apply Odoo-specific formatting rules
+
+### 8. Developer Tools
 
 #### Folder Search in Odoo Explorer 🆕
 

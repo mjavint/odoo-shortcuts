@@ -1,5 +1,57 @@
 # Change Log
 
+## Version 0.40.0
+
+### Added
+
+#### 📝 XML Formatter - Odoo-Specific Formatting
+
+A powerful and customizable XML formatter specifically designed for Odoo development workflows.
+
+**New Features:**
+
+- **Split Attributes**: Renamed "Align Attributes" to "Split Attributes" for clarity - automatically splits attributes onto new lines when they exceed line length
+- **Split Attributes Tags**: New configuration `odooShortcuts.formatter.splitAttributesTags` to specify tags that should always have their attributes split
+- **Exclude Patterns**: New configuration `odooShortcuts.formatter.excludePatterns` to exclude files from formatting (defaults to excluding Odoo server and enterprise modules)
+- **Smart Comment Handling**: Improved spacing logic to keep comments attached to their related tags
+- **Inline Attribute Fix**: Fixed an issue where inline attributes with multi-line values were incorrectly treated as aligned attributes
+- **QWeb Support**: Special handling for QWeb attributes (`t-`) ensuring they come first
+- **Tag Spacing**: Automatically adds blank lines before major Odoo tags for better readability
+
+**Recommended Configuration:**
+
+For optimal Odoo XML formatting, add this to your VS Code `settings.json`:
+
+```json
+{
+  "odooShortcuts.formatter.splitAttributes": true,
+  "odooShortcuts.formatter.maxLineLength": 88,
+  "odooShortcuts.formatter.odooSpacingTags": [
+    "record",
+    "menuitem"
+  ],
+  "odooShortcuts.formatter.excludePatterns": [
+    "**/odoo/**",
+    "**/enterprise/**"
+  ]
+}
+```
+
+**Configuration Details:**
+
+- `splitAttributes`: Enable automatic attribute splitting when lines exceed `maxLineLength`
+- `maxLineLength`: Set to 88 (matching Python's Black formatter) for consistency across your Odoo project
+- `odooSpacingTags`: Add blank lines before `record` and `menuitem` tags for better visual separation
+- `excludePatterns`: Prevent formatting of core Odoo and enterprise modules to avoid unwanted changes
+
+**Benefits:**
+
+- Consistent XML formatting across your entire Odoo project
+- Improved readability with smart attribute splitting and tag spacing
+- Prevents accidental formatting of Odoo core/enterprise files
+- Preserves your comments exactly where you placed them
+- Special handling for Odoo-specific structures (QWeb, records, views, etc.)
+
 ## Version 0.39.0
 
 ### Added
