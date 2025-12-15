@@ -1,5 +1,13 @@
 # Change Log
 
+## Version 0.40.1
+
+### Fixed
+
+#### 🐛 XML Formatter - Self-Closing Tags
+
+- **Arrow Function Conflict Fix**: Fixed an issue in the XML formatter where self-closing tags would incorrectly replace the `>` character from arrow functions (`=>`) in attributes instead of the actual closing bracket. The formatter now correctly identifies and replaces only the last `>` character of the tag.
+
 ## Version 0.40.0
 
 ### Added
