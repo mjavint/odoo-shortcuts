@@ -1,14 +1,20 @@
 # Change Log
 
-## Version 0.40.3
+## Version 0.40.4
 
-### Added
+### Fixed
 
-#### 🦉 OWL Folders - Visual Identification
+#### 🔧 XML Formatter - Attribute Priority in xpath
 
-- **Special icons for folders with JavaScript**: Folders containing `.js` files are now automatically identified with the Owl icon
-- **Adaptive theme**: The icon changes according to your VS Code theme (light/dark)
-- **Complete context menu**: OWL folders have the same commands as normal folders (create file, copy, paste, etc.)
+> Note: Thanks to [Gusti Tammam](https://github.com/gustitammam) for reporting it in [#32](https://github.com/mjavint/odoo-shortcuts/issues/32)
+
+- **Issue resolved**: Fixed the order of attributes in `<xpath>` tags. Now the `expr` and `position` attributes appear first, following Odoo best practices for xpath elements.
+
+#### 🔄 Scaffold Views - Support for list type views in Odoo 18+
+
+> Note: Thanks to [DaoThang3797](https://github.com/DaoThang3797) for reporting it in [#33](https://github.com/mjavint/odoo-shortcuts/issues/33)
+
+- **Issue resolved**: Fixed the logic that didn't correctly add `list` type views, so it now properly supports versions 18 and 19, using `list` instead of `tree` as appropriate for these versions.
 
 ---
 
@@ -18,47 +24,47 @@
 
 #### 🚀 Owl LSP - Major Improvements
 
-The Owl Language Server Protocol (LSP) has been completely improved with new advanced capabilities:
+The Owl Language Server Protocol (LSP) has been completely enhanced with new advanced capabilities:
 
 ##### **TypeResolver Service** (New)
 
-- **Parse of `.d.ts` files**: Robust system that parses and loads TypeScript type definitions from `owl.d.ts`
-- **Real type resolution**: Obtains real types of classes, interfaces, and functions from OWL
+- **Parse `.d.ts` files**: Robust system that parses and loads TypeScript type definitions from `owl.d.ts`
+- **Real type resolution**: Obtains real types from OWL classes, interfaces, and functions
 - **Type inference**: Infers types from expressions and document context
 - **Inheritance support**: Resolves inherited members from parent classes
-- **50+ types loaded**: Complete loading of types for Component, hooks, lifecycle, etc.
+- **50+ types loaded**: Complete loading of Component, hooks, lifecycle types, etc.
 
 ##### **ImportService** (New)
 
 - **Import extraction**: Detects and parses all existing imports in documents
-- **Intelligent auto-import**: Generates imports automatically when using symbols
-- **Import merge**: Combines new symbols with existing imports from the same path
+- **Smart auto-import**: Automatically generates imports when using symbols
+- **Import merging**: Combines new symbols with existing imports from the same path
 - **Import organization**: Sorts and groups imports following conventions
-- **Detection of missing imports**: Finds unimported symbols and suggests imports
-- **Customizable order**: @odoo/owl → @odoo/ → @web/ → @ → relatives
+- **Missing import detection**: Finds non-imported symbols and suggests imports
+- **Customizable order**: @odoo/owl → @odoo/ → @web/ → @ → relative
 
-##### **Improved CompletionService**
+##### **Enhanced CompletionService**
 
-- **Integration with TypeResolver**: Uses real types from `owl.d.ts` for autocompletion
+- **TypeResolver integration**: Uses real types from `owl.d.ts` for autocompletion
 - **Rich documentation**: Shows TypeScript signatures, descriptions, parameters, and examples
 - **Improved inference**: Detects types from context using TypeResolver
 - **Precise member access**: Exact autocompletion in chains like `state.count`
 - **Optimized performance**: 5-minute cache and O(1) lookups
 
-##### **Improved CodeActionService**
+##### **Enhanced CodeActionService**
 
 - **Auto-import in Quick Fix**: Ctrl+. suggests imports for undefined symbols
 - **Multiple suggestions**: Offers all options when there are duplicate symbols
-- **Intelligent merge**: Adds symbols to existing imports automatically
+- **Smart merging**: Automatically adds symbols to existing imports
 - **Configurable preferences**: Marks @odoo/owl imports as preferred
 
 ### Improved
 
-#### 📚 Improved Inline Documentation
+#### 📚 Enhanced Inline Documentation
 
-- **Precise TypeScript types**: Shows exact types of parameters and returns
+- **Precise TypeScript types**: Shows exact types for parameters and returns
 - **Usage examples**: Includes code examples for common functions and hooks
-- **Complete metadata**: Information on import path, symbol type, etc.
+- **Complete metadata**: Information about import path, symbol type, etc.
 - **Rich Markdown format**: Headers, code blocks, lists with better formatting
 
 #### ⚡ Performance
@@ -66,14 +72,14 @@ The Owl Language Server Protocol (LSP) has been completely improved with new adv
 - **85% accuracy** in type inference (before: 40%)
 - **75% faster** autocompletion (from 200ms to 50ms)
 - **95% coverage** of OWL API (before: 30%)
-- **Multilevel cache**: TypeDefinitions + Symbol index + Completions
+- **Multi-level cache**: TypeDefinitions + Symbol index + Completions
 
 #### 🎯 Developer Experience
 
 - **Predictive autocompletion**: Based on real types, not just patterns
 - **Fewer errors**: Correct type detection reduces bugs
 - **Improved navigation**: Ctrl+Click leads to type definitions
-- **Better productivity**: Automatic auto-import and organization
+- **Better productivity**: Auto-import and automatic organization
 
 ### Changed
 
@@ -88,7 +94,7 @@ None. All improvements are backward compatible.
 ### Known Issues
 
 - Snippets for OWL components are pending (next version)
-- Props validation in XML templates is in development
+- Validation of props in XML templates is under development
 
 ---
 
@@ -169,6 +175,7 @@ For optimal Odoo XML formatting, add this to your VS Code `settings.json`:
 - **Centralized Logging**: All operations logged to "Odoo Shortcuts" output channel
 
 **Features**:
+
 - Open model files (`.py`) with the visual editor
 - Add new fields with intuitive form interface
 - Edit existing fields by clicking on field cards
@@ -178,6 +185,7 @@ For optimal Odoo XML formatting, add this to your VS Code `settings.json`:
 - Automatic code generation following Odoo conventions
 
 #### 🔍 Folder Search in Odoo Explorer
+
 > Suggested by [Gusti Tammam](https://github.com/gustitammam) in [#26](https://github.com/mjavint/odoo-shortcuts/issues/26)
 
 - **Quick Search**: Search within specific folders in Odoo Explorer with `Ctrl+F` (Windows/Linux) or `Cmd+F` (Mac)
