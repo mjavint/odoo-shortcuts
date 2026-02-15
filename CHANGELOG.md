@@ -1,6 +1,20 @@
 # Change Log
 
-## Version 0.40.4
+## Version 0.41.0
+
+### Added
+
+#### 📝 XML Formatter - Format Selection Support
+
+- **Format Selection**: Added support for "Format Selection" (Ctrl+K Ctrl+F) in XML/Odoo files. You can now format specific selections of XML code without formatting the entire document.
+
+> Suggested by [Gusti Tammam](https://github.com/gustitammam) in [#35](https://github.com/mjavint/odoo-shortcuts/issues/35). Thank you for the suggestion, it was a great idea to enhance the XML formatter with this feature!
+
+**Usage:**
+
+- Select any XML code in an Odoo file
+- Press `Ctrl+K Ctrl+F` (Windows/Linux) or `Cmd+K Cmd+F` (Mac)
+- The selection is formatted with proper indentation
 
 ### Fixed
 

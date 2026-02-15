@@ -5,8 +5,12 @@
 [![Version](https://img.shields.io/visual-studio-marketplace/v/mvintg.odoo-file)](https://marketplace.visualstudio.com/items?itemName=mvintg.odoo-file)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/mvintg.odoo-file)](https://marketplace.visualstudio.com/items?itemName=mvintg.odoo-file)
 [![Rating](https://img.shields.io/visual-studio-marketplace/r/mvintg.odoo-file)](https://marketplace.visualstudio.com/items?itemName=mvintg.odoo-file&ssr=false#review-details)
+[![Documentation](https://img.shields.io/badge/docs-wiki-blue)](./docs/index.md)
+[![Web Docs](https://img.shields.io/badge/web%20docs-odoo--shortcuts-brightgreen)](https://mjavint.github.io/odoo-shortcuts/)
 
 Odoo Shortcuts is a comprehensive VS Code extension designed to boost your productivity when developing Odoo applications. Create scaffolds for addons, modules, models, views, controllers, wizards, reports, OWL components, and more with just a few clicks.
+
+> 📚 **Web Documentation**: [https://mjavint.github.io/odoo-shortcuts/](https://mjavint.github.io/odoo-shortcuts/)
 
 ## 📋 Table of Contents
 
@@ -25,6 +29,7 @@ Odoo Shortcuts is a comprehensive VS Code extension designed to boost your produ
 - [Commands](#-commands)
 - [Configuration](#-configuration)
 - [Keyboard Shortcuts](#-keyboard-shortcuts)
+- [Documentation](#-documentation)
 - [Known Issues](#-known-issues)
 - [Contributing](#-contributing)
 - [Support](#-support)
@@ -762,6 +767,30 @@ Configure Odoo servers via the Configuration Panel (status bar icon) or directly
 | `Cmd+K Cmd+A` | Open Configuration | Open Odoo launch configuration panel |
 | `Cmd+K Cmd+F` | Filter Addons | Filter addons in Odoo Explorer |
 
+## 📚 Documentation
+
+Complete documentation is available in multiple formats:
+
+### 🌐 Web Documentation (Recommended)
+Visit our web documentation for the best reading experience:
+**[https://mjavint.github.io/odoo-shortcuts/](https://mjavint.github.io/odoo-shortcuts/)**
+
+Access directly from VS Code: `Ctrl+Shift+P` → "Open Odoo Shortcuts Documentation"
+
+### 📁 Local Documentation
+Complete documentation is also available in the [`docs/`](./docs/) folder:
+
+- [📖 Documentation Home](./docs/index.md) - Start here for complete guides
+- [🚀 Getting Started](./docs/getting-started.md) - Setup in 5 minutes
+- [🏗️ Scaffold System](./docs/features/scaffold-system.md) - Code generation
+- [🌳 Odoo Explorer](./docs/features/odoo-explorer.md) - Visual addon explorer
+- [🔧 LSP Features](./docs/features/lsp-features.md) - IntelliSense & autocomplete
+- [💡 CodeLens](./docs/features/codelens.md) - Contextual code actions
+- [⚙️ Configuration](./docs/configuration.md) - Settings reference
+- [❓ FAQ](./docs/faq.md) - Frequently asked questions
+- [📋 Commands Reference](./docs/commands-reference.md) - All available commands
+- [⌨️ Keybindings](./docs/keybindings.md) - Keyboard shortcuts
+
 ## 🐛 Known Issues
 
 Report issues at: [GitHub Issues](https://github.com/mjavint/odoo-shortcuts/issues)
@@ -770,9 +799,20 @@ Report issues at: [GitHub Issues](https://github.com/mjavint/odoo-shortcuts/issu
 
 ### Get Help
 
-- 📖 [Documentation](https://github.com/mjavint/odoo-shortcuts)
-- 🐛 [Report Issues](https://github.com/mjavint/odoo-shortcuts/issues)
-- ⭐ [Rate & Review](https://marketplace.visualstudio.com/items?itemName=mvintg.odoo-file&ssr=false#review-details)
+- 🌐 [Web Documentation](https://mjavint.github.io/odoo-shortcuts/) - Complete documentation online
+- 📖 [Documentation Wiki](./docs/index.md) - Comprehensive guides and tutorials
+- 🐛 [Report Issues](https://github.com/mjavint/odoo-shortcuts/issues) - Bug reports and feature requests
+- ⭐ [Rate & Review](https://marketplace.visualstudio.com/items?itemName=mvintg.odoo-file&ssr=false#review-details) - Share your feedback
+
+### Quick Links
+
+| Resource | Link |
+|----------|------|
+| **Web Docs** | [mjavint.github.io/odoo-shortcuts](https://mjavint.github.io/odoo-shortcuts/) |
+| **Getting Started** | [docs/getting-started.md](./docs/getting-started.md) |
+| **FAQ** | [docs/faq.md](./docs/faq.md) |
+| **Commands** | [docs/commands-reference.md](./docs/commands-reference.md) |
+| **Configuration** | [docs/configuration.md](./docs/configuration.md) |
 
 ### Maintainer
 
