@@ -2,7 +2,7 @@
 
 The Odoo Explorer provides a visual interface to navigate and manage your Odoo addons directly from VS Code.
 
-![Odoo Explorer Overview](../../img/00-explorer.jpeg)
+![Odoo Explorer Overview](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-explorer.jpeg?raw=true)
 
 ## 🌳 Explorer Structure
 
@@ -11,7 +11,7 @@ The panel is divided into four sections:
 ### 1. Custom Addons
 Shows addons from your workspace and custom repositories.
 
-![Custom Addons View](../../img/01-explorer.jpeg)
+![Custom Addons View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-explorer.jpeg?raw=true)
 
 **Available Operations:**
 - 📁 Navigate folder structure
@@ -37,7 +37,7 @@ Shows Odoo Enterprise addons if available.
 - Read-only access
 - Requires Enterprise license
 
-![Core and Enterprise View](../../img/explorer-core-enterprise-view.gif)
+![Core and Enterprise View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/explorer-core-enterprise-view.gif?raw=true)
 
 ### 4. Configuration Files
 Shows `.conf` configuration files found.
@@ -47,7 +47,7 @@ Shows `.conf` configuration files found.
 - Copy path
 - Reveal in explorer
 
-![Configuration Files](../../img/02-explorer.jpeg)
+![Configuration Files](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-explorer.jpeg?raw=true)
 
 ## 🎯 Explorer Commands
 
@@ -84,7 +84,7 @@ Right-click on any item for:
 - Open in Terminal
 - Find in Folder
 
-![Search in Folder](../../img/search-in-folder.jpeg)
+![Search in Folder](https://github.com/mjavint/odoo-shortcuts/blob/main/img/search-in-folder.jpeg?raw=true)
 
 **Folders:**
 - New File
@@ -148,7 +148,7 @@ The explorer shows different icons by type:
 2. Select the addons you want to see
 3. Other addons are temporarily hidden
 
-![Filter Addons](../../img/repos-filter.gif)
+![Filter Addons](https://github.com/mjavint/odoo-shortcuts/blob/main/img/repos-filter.gif?raw=true)
 
 ### Hidden Repositories
 
@@ -156,7 +156,7 @@ The explorer shows different icons by type:
 - **Hide Addon** - Hides a specific addon
 - **Show All Hidden** - Shows all hidden items
 
-![Hide/Show Repositories](../../img/hide-show-addon-repo.gif)
+![Hide/Show Repositories](https://github.com/mjavint/odoo-shortcuts/blob/main/img/hide-show-addon-repo.gif?raw=true)
 
 ## 🚀 Keyboard Shortcuts
 

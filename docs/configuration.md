@@ -4,8 +4,8 @@ Odoo Shortcuts offers multiple configuration options to customize behavior accor
 
 | Configuration Panel |
 |:---:|
-| ![Panel Config Dark](../../img/panel-config-dark.png) |
-| ![Panel Config Light](../../img/panel-config-light.png) |
+| ![Panel Config Dark](https://github.com/mjavint/odoo-shortcuts/blob/main/img/panel-config-dark.png?raw=true) |
+| ![Panel Config Light](https://github.com/mjavint/odoo-shortcuts/blob/main/img/panel-config-light.png?raw=true) |
 
 ## ⚙️ Accessing Settings
 
@@ -109,7 +109,7 @@ Enables/disables CodeLens links on models and components.
 
 #### Enable Headers
 
-![Header License 1](../../img/00-header-license.png)
+![Header License 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-header-license.png?raw=true)
 
 ```json
 {
@@ -119,7 +119,7 @@ Enables/disables CodeLens links on models and components.
 
 #### Author Information
 
-![Header License 2](../../img/01-header-license.png)
+![Header License 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-header-license.png?raw=true)
 
 ```json
 {
@@ -225,17 +225,17 @@ See [XML Formatter](./features/formatter.md) for detailed options.
   ],
   "odooShortcuts.autoRefresh": true,
   "odooShortcuts.openFiles": true,
-  
+
   // CodeLens
   "odooFile.codelens.enabled": true,
-  
+
   // File Headers
   "odooShortcuts.fileHeaders.enabled": true,
   "odooShortcuts.fileHeaders.author": "John Doe",
   "odooShortcuts.fileHeaders.email": "john@example.com",
   "odooShortcuts.fileHeaders.company": "My Company",
   "odooShortcuts.fileHeaders.license": "LGPL-3",
-  
+
   // Formatter
   "odooShortcuts.formatter.tabSize": 4,
   "odooShortcuts.formatter.preserveComments": true,

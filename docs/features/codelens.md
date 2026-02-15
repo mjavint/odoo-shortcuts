@@ -72,7 +72,7 @@ CodeLens automatically activates for:
 3. **Click** on the links that appear above classes
 4. **Follow** the command instructions
 
-![CodeLens in Action](../../img/codelens.gif)
+![CodeLens in Action](https://github.com/mjavint/odoo-shortcuts/blob/main/img/codelens.gif?raw=true)
 
 ### Complete Example
 
@@ -99,7 +99,7 @@ class SaleOrder(models.Model):
 
 CodeLens appears as light gray text above definitions:
 
-![CodeLens Appearance](../../img/codelens.jpeg)
+![CodeLens Appearance](https://github.com/mjavint/odoo-shortcuts/blob/main/img/codelens.jpeg?raw=true)
 
 ```
 [Create Views] [Create Report] [Import Security]

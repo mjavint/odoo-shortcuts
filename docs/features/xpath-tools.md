@@ -8,8 +8,8 @@ Gets the XPath path of the current XML element.
 
 **Command:** `Odoo Shortcuts: Get XPath`
 
-![Get XPath 1](../../img/get-XPath-1.png)
-![Get XPath 2](../../img/get-XPath-2.png)
+![Get XPath 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/get-XPath-1.png?raw=true)
+![Get XPath 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/get-XPath-2.png?raw=true)
 
 **Usage:**
 1. Place cursor on an XML element

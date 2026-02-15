@@ -2,7 +2,7 @@
 
 Odoo Shortcuts includes a specialized XML formatter for Odoo files.
 
-![Transform CSV to XML](../../img/transform-csv-xml-data.gif)
+![Transform CSV to XML](https://github.com/mjavint/odoo-shortcuts/blob/main/img/transform-csv-xml-data.gif?raw=true)
 
 ## ✨ Features
 

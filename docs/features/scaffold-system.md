@@ -2,7 +2,7 @@
 
 The Odoo Shortcuts scaffold system allows you to generate complete Odoo code quickly and consistently. Supports Odoo versions 14-19 and automatically adapts syntax according to the version.
 
-![Scaffold Demo](../../img/new-context.gif)
+![Scaffold Demo](https://github.com/mjavint/odoo-shortcuts/blob/main/img/new-context.gif?raw=true)
 
 ## 📋 Generator Index
 
@@ -60,7 +60,7 @@ Generates a complete Odoo model with:
 
 **Command:** `Odoo Shortcuts: New Model`
 
-![Model Fields Editor](../../img/01-model-editor-fields.jpeg)
+![Model Fields Editor](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-model-editor-fields.jpeg?raw=true)
 
 **Generated Template (Odoo 18+):**
 ```python
@@ -255,8 +255,8 @@ Generates `ir.model.access.csv` file with access rules.
 
 **Command:** `Odoo Shortcuts: New Security File`
 
-![Security Feature 1](../../img/feat-security-1.png)
-![Security Feature 2](../../img/feat-security-2.png)
+![Security Feature 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/feat-security-1.png?raw=true)
+![Security Feature 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/feat-security-2.png?raw=true)
 
 **Template:**
 ```csv

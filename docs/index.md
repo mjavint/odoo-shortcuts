@@ -2,7 +2,7 @@
 
 Welcome to the complete documentation for **Odoo Shortcuts** - The definitive VS Code extension for Odoo development.
 
-![General Demo](../img/general.gif)
+![General Demo](https://github.com/mjavint/odoo-shortcuts/blob/main/img/general.gif?raw=true)
 
 ## 📚 Quick Navigation
 
@@ -49,7 +49,7 @@ Welcome to the complete documentation for **Odoo Shortcuts** - The definitive VS
 ### 1. **Intelligent Scaffold**
 Generate complete Odoo code with a single command. Supports Odoo versions 14-19 and automatically adapts syntax (e.g., `tree` vs `list` in Odoo 18+).
 
-![Scaffold Demo](../img/new-context.gif)
+![Scaffold Demo](https://github.com/mjavint/odoo-shortcuts/blob/main/img/new-context.gif?raw=true)
 
 ### 2. **Visual Explorer**
 Browse your addons like a file explorer. Support for:
@@ -58,7 +58,7 @@ Browse your addons like a file explorer. Support for:
 - Configuration files
 - CRUD operations
 
-![Explorer View](../img/00-explorer.jpeg)
+![Explorer View](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-explorer.jpeg?raw=true)
 
 ### 3. **Advanced LSP**
 Proprietary language server with:
@@ -67,7 +67,7 @@ Proprietary language server with:
 - Automatic reindexing
 - Import support
 
-![OWL LSP](../img/01-owl-lsp.png)
+![OWL LSP](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-owl-lsp.png?raw=true)
 
 ### 4. **Contextual CodeLens**
 Quick actions directly in the code:
@@ -76,7 +76,7 @@ Quick actions directly in the code:
 - Import security
 - View OWL documentation
 
-![CodeLens](../img/codelens.jpeg)
+![CodeLens](https://github.com/mjavint/odoo-shortcuts/blob/main/img/codelens.jpeg?raw=true)
 
 ## 📝 Quick Example
 

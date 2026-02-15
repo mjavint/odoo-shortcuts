@@ -68,7 +68,7 @@ For the explorer to detect correctly:
 2. Find the Odoo icon (🦉)
 3. Click to open the **Odoo Explorer**
 
-![Odoo Explorer](../img/01-explorer.jpeg)
+![Odoo Explorer](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-explorer.jpeg?raw=true)
 
 ## 💡 Quick Tips
 
@@ -93,7 +93,7 @@ class MyModel(models.Model):     # ← Links appear here
 
 Click to automatically generate code.
 
-![CodeLens Example](../img/codelens.gif)
+![CodeLens Example](https://github.com/mjavint/odoo-shortcuts/blob/main/img/codelens.gif?raw=true)
 
 ### Useful Commands
 

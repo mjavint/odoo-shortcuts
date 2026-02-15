@@ -4,10 +4,10 @@ Odoo Shortcuts includes a proprietary Language Server (LSP) that provides intell
 
 | OWL LSP Features |
 |:---:|
-| ![OWL LSP 1](../../img/00-owl-lsp.png) |
-| ![OWL LSP 2](../../img/01-owl-lsp.png) |
-| ![OWL LSP 3](../../img/02-owl-lsp.png) |
-| ![OWL LSP 4](../../img/03-owl-lsp.png) |
+| ![OWL LSP 1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/00-owl-lsp.png?raw=true) |
+| ![OWL LSP 2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-owl-lsp.png?raw=true) |
+| ![OWL LSP 3](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-owl-lsp.png?raw=true) |
+| ![OWL LSP 4](https://github.com/mjavint/odoo-shortcuts/blob/main/img/03-owl-lsp.png?raw=true) |
 
 ## 🚀 LSP Features
 
@@ -81,7 +81,7 @@ When you use an unimported symbol, the LSP can suggest automatic imports.
 
 ### Component Autocomplete
 
-![Component Autocomplete](../../img/01-owl-lsp.png)
+![Component Autocomplete](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-owl-lsp.png?raw=true)
 
 ```javascript
 /** @odoo-module **/
@@ -97,7 +97,7 @@ export class MyComponent extends Component {
 
 ### Navigation to Definitions
 
-![Go to Definition](../../img/02-owl-lsp.png)
+![Go to Definition](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-owl-lsp.png?raw=true)
 
 ```javascript
 import { Dialog } from "@web/core/dialog/dialog";
