@@ -1,5 +1,37 @@
 # Change Log
 
+## Version 1.0.0 - (2026-03-20)
+
+### Changed
+
+#### 🔄 OWL LSP Moved to Separate Extension
+
+The OWL/JavaScript Language Server (LSP) functionality has been moved to a new separate extension: **[mvintg.owl-lsp](https://marketplace.visualstudio.com/items?itemName=mvintg.owl-lsp)**
+
+**Why this change?**
+
+- **Focused functionality**: Each extension now focuses on its specific purpose
+- **Better maintenance**: Independent release cycles for LSP and Odoo-specific features
+- **Lighter core**: The main extension is now lighter without the LSP server
+- **Independent updates**: LSP can be updated and improved separately
+
+**Migration:**
+
+1. If you use OWL/JavaScript IntelliSense features, install the new extension: **[mvintg.owl-lsp](https://marketplace.visualstudio.com/items?itemName=mvintg.owl-lsp)**
+2. All other Odoo Shortcuts features (scaffolding, debugging, explorer, etc.) remain unchanged
+3. Your existing configurations and workflows will continue to work
+
+**What's included in the new extension:**
+
+- Full OWL/JavaScript Language Server
+- IntelliSense for @odoo/owl and @web libraries
+- Auto-import functionality
+- Go to Definition
+- Hover documentation
+- Reindex commands
+
+---
+
 ## Version 0.41.0
 
 ### Added
