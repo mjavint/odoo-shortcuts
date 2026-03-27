@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 1.0.1 - (2026-03-27)
+
+- Fixed webview display issues in configuration and icon picker panels.
+
 ## Version 1.0.0 - (2026-03-20)
 
 ### Changed
