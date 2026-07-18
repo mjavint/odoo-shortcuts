@@ -1,6 +1,6 @@
 # Change Log
 
-## Version 1.1.0 - (2026-07-18)
+## Version 1.1.1 - (2026-07-18)
 
 ### Added
 
