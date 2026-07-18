@@ -1,8 +1,11 @@
 # Change Log
 
-## Version 1.0.1 - (2026-03-27)
+## Version 1.1.0 - (2026-07-18)
 
-- Fixed webview display issues in configuration and icon picker panels.
+### Added
+
+- **Dependency Graph**: Right-click on any `__manifest__.py` file or Odoo addon in the explorer to visualize its dependency tree as an interactive force-directed graph. Shows dependencies (modules it requires) and reverse dependencies (modules that require it) with color-coded particles.
+- **Performance**: Performance has been significantly improved.
 
 ## Version 1.0.0 - (2026-03-20)
 
@@ -182,14 +185,8 @@ For optimal Odoo XML formatting, add this to your VS Code `settings.json`:
 {
   "odooShortcuts.formatter.splitAttributes": true,
   "odooShortcuts.formatter.maxLineLength": 88,
-  "odooShortcuts.formatter.odooSpacingTags": [
-    "record",
-    "menuitem"
-  ],
-  "odooShortcuts.formatter.excludePatterns": [
-    "**/odoo/**",
-    "**/enterprise/**"
-  ]
+  "odooShortcuts.formatter.odooSpacingTags": ["record", "menuitem"],
+  "odooShortcuts.formatter.excludePatterns": ["**/odoo/**", "**/enterprise/**"]
 }
 ```
 
@@ -253,8 +250,8 @@ For optimal Odoo XML formatting, add this to your VS Code `settings.json`:
 
 #### Model Fields Visual Editor
 
-| Model Fields Editor | Model Fields Editor |
-|---|---|
+| Model Fields Editor                                                                                                   | Model Fields Editor                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | ![Model Fields Editor1](https://github.com/mjavint/odoo-shortcuts/blob/main/img/01-model-editor-fields.jpeg?raw=true) | ![Model Fields Editor2](https://github.com/mjavint/odoo-shortcuts/blob/main/img/02-model-editor-fields.jpeg?raw=true) |
 
 #### Folder Search in Odoo Explorer
@@ -527,29 +524,29 @@ For optimal Odoo XML formatting, add this to your VS Code `settings.json`:
 ## Version 0.35.0
 
 - The ability to create test files for the server side (Odoo Python Test Case) and for the client side (Odoo Javascript Test with Hoot) has been added. Feature suggested in [#13](https://github.com/mjavint/odoo-shortcuts/issues/13) by [Carlos Lopez](https://github.com/celm1990)
-![Test files](https://github.com/mjavint/odoo-shortcuts/blob/main/img/feature-test.gif?raw=true)
+  ![Test files](https://github.com/mjavint/odoo-shortcuts/blob/main/img/feature-test.gif?raw=true)
 
 ## Version 0.34.0
 
 - A filter for repositories in the Odoo explorer has been added `ctrl+k ctrl+f` (windows/linux) and `cmd+k cmd+f` (mac).
-![Repos Filter](https://github.com/mjavint/odoo-shortcuts/blob/main/img/repos-filter.gif?raw=true)
+  ![Repos Filter](https://github.com/mjavint/odoo-shortcuts/blob/main/img/repos-filter.gif?raw=true)
 
 - The Fontawesome Picker and online Documentation have been moved to the status bar for faster access.
-![Picker-Docs](https://github.com/mjavint/odoo-shortcuts/blob/main/img/move-picker-doc.png?raw=true)
+  ![Picker-Docs](https://github.com/mjavint/odoo-shortcuts/blob/main/img/move-picker-doc.png?raw=true)
 
 ## Version 0.33.0
 
 - Odoo startup options autocompletion has been added.
 
-| Theme Dark | Theme Light |
-|-|-|
-| ![Odoo Launch Configuration](https://github.com/mjavint/odoo-shortcuts/blob/main/img/odoo-launch-dark.png?raw=true) | ![Odoo Launch Configuration](https://github.com/mjavint/odoo-shortcuts/blob/main/img/odoo-launch-light.png?raw=true)|
+| Theme Dark                                                                                                          | Theme Light                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ![Odoo Launch Configuration](https://github.com/mjavint/odoo-shortcuts/blob/main/img/odoo-launch-dark.png?raw=true) | ![Odoo Launch Configuration](https://github.com/mjavint/odoo-shortcuts/blob/main/img/odoo-launch-light.png?raw=true) |
 
 ## Version 0.32.0
 
 - Improvements have been added to the visualization of repositories and addons in the Odoo Explorer.
 - The option to hide and show repositories and addons in the Odoo Explorer has been added.
-![Icon Odoo and Font Awesome](https://github.com/mjavint/odoo-shortcuts/blob/main/img/hide-show-addon-repo.gif?raw=true)
+  ![Icon Odoo and Font Awesome](https://github.com/mjavint/odoo-shortcuts/blob/main/img/hide-show-addon-repo.gif?raw=true)
 - We have fully implemented [[FEAT] Improvement in addon visualization in Odoo Explorer](https://github.com/mjavint/odoo-shortcuts/issues/14) suggested by [Adnier Roselló](https://github.com/arc87)
 
 ## Version 0.31.0
@@ -568,9 +565,9 @@ For optimal Odoo XML formatting, add this to your VS Code `settings.json`:
 
 - The Odoo Shortcuts settings panel has been fixed for light themes, reported by several users.
 
-| Theme Dark | Theme Light   |
-|-|-|
-| ![Panel Config Dark](https://github.com/mjavint/odoo-shortcuts/blob/main/img/panel-config-dark.png?raw=true)  | ![Panel Config Light](https://github.com/mjavint/odoo-shortcuts/blob/main/img/panel-config-light.png?raw=true)   |
+| Theme Dark                                                                                                   | Theme Light                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| ![Panel Config Dark](https://github.com/mjavint/odoo-shortcuts/blob/main/img/panel-config-dark.png?raw=true) | ![Panel Config Light](https://github.com/mjavint/odoo-shortcuts/blob/main/img/panel-config-light.png?raw=true) |
 
 ## Version 0.28.0
 
@@ -712,13 +709,13 @@ For optimal Odoo XML formatting, add this to your VS Code `settings.json`:
 - The error that duplicated the xml in the `__manifest__.py` file has been fixed
 - The performance of the extension has been improved for gre<<<<<<< HEAD
   "version": "0.15.4",
-=======ing to the issue [[ FEAT ] Creates inherit views. #2](https://github.com/mjavint/odoo-shortcuts/issues/2), proposed by **Rafael Angel Ramirez**.
+  =======ing to the issue [[ FEAT ] Creates inherit views. #2](https://github.com/mjavint/odoo-shortcuts/issues/2), proposed by **Rafael Angel Ramirez**.
 - Added the functionality to create paper format to the reports.
 - The folder and directory structure was aligned to the development guide proposed by Odoo. Thanks to **Rolando Perez Rebollo** for suggesting we add this guide [Odoo Coding Guidelines](https://www.odoo.com/documentation/17.0/contributing/development/coding_guidelines.html).
 
 ## Version 0.11.1
 
-- Fixed error in the node tree and search that did not allow an OCA pre-commit when it has string. Thanks to *Carlos López* for detecting and reporting it. The `oovtree`, `oovfull`, `ootedit` snippets and the respective `Create Model` and `Create View` file creation shortcuts were updated. Issue Details [string attribute in \<tree\> #1](https://github.com/mjavint/odoo-shortcuts/issues/1)
+- Fixed error in the node tree and search that did not allow an OCA pre-commit when it has string. Thanks to _Carlos López_ for detecting and reporting it. The `oovtree`, `oovfull`, `ootedit` snippets and the respective `Create Model` and `Create View` file creation shortcuts were updated. Issue Details [string attribute in \<tree\> #1](https://github.com/mjavint/odoo-shortcuts/issues/1)
 
 ## Version 0.11.0
 
@@ -815,8 +812,8 @@ demo: ![demo](https://youtu.be/leyVXKjNQlY?si=Y6_iritz4kTZMQxo)
 
 ## Version 0.3.0
 
-- Get Current XPath in views *.xml, selecting the tag inside the quotes or selecting the parent selector of the line
-- Create odoo configuration files (*.conf)
+- Get Current XPath in views \*.xml, selecting the tag inside the quotes or selecting the parent selector of the line
+- Create odoo configuration files (\*.conf)
 
 ## Version 0.2.1
 
@@ -825,7 +822,7 @@ demo: ![demo](https://youtu.be/leyVXKjNQlY?si=Y6_iritz4kTZMQxo)
 ## Version 0.2.0
 
 - The name was changed to continue extending and adding functionalities in the form of shortcuts
-- All snnipets have been migrated to this extension available in the Odoo Final Snippets  extension of mjavint (deprecated)
+- All snnipets have been migrated to this extension available in the Odoo Final Snippets extension of mjavint (deprecated)
 - All snippets that were available in the mjavint Odoo Final Snippets <https://marketplace.visualstudio.com/items?itemName=mjavint.mjavint-odoo-snippets> extension (deprecated) have been migrated to this extension
 - Added shortcuts for working in python, xml and javascript
 - Work on response speed
